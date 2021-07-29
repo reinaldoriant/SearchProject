@@ -19,7 +19,7 @@ struct LandingSearchView: View {
                     //MARK: - Title Topik Hangat
                     HStack{
                         Text("Topik Hangat")
-                        .titleStyle()
+                        .hindSemiBold16Black()
                         .modifier(TitleText())
                         Spacer()}
                     //MARK: - Button Topik Hangat
@@ -29,7 +29,7 @@ struct LandingSearchView: View {
                             ScrollView (.horizontal, showsIndicators: false) {
                                 HStack(alignment: .firstTextBaseline, spacing: 8) {
                                     ForEach(hotTopics, id: \.name){ item in
-                                        HotTopicsView(hotTopics: item.name)
+                                        HotTopicsViewItem(hotTopics: item.name)
                                     }
                                 }
                                 .padding(.horizontal, 16)
@@ -46,7 +46,7 @@ struct LandingSearchView: View {
                     
                     //MARK: - Terpopuler
                     HStack{ Text("Terpopuler")
-                        .titleStyle()
+                        .hindSemiBold16Black()
                         .modifier(TitleText())
                         Spacer()}
                     Group{

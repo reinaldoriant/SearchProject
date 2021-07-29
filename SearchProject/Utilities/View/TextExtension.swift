@@ -8,24 +8,37 @@
 import SwiftUI
 
 extension Text{
-    //MARK: - Search
-    func titleStyle() -> Text{
+    //MARK: - hind
+    func hindSemiBold16Black() -> Text{
         self
             .foregroundColor(Color(UIColor(named: "ColorBlack333")!))
             .font(Font.custom("Hind-SemiBold", size: 16))
     }
-    func dateSearchStyle() -> Text{
+    func hindRegular12Gray() -> Text{
         self
             .foregroundColor(Color(UIColor(named: "ColorGray666")!))
-            .font(Font.custom("Hind-regular", size: 12))
+            .font(Font.custom("Hind-Regular", size: 12))
     }
-    func titleNewsSearchStyle() -> Text{
+    func hindRegular16Black() -> Text{
         self
             .foregroundColor(Color(UIColor(named: "ColorBlack333")!))
-            .font(Font.custom("PlayFairDisplay-Bold", size: 14))
+            .font(Font.custom("Hind-Regular", size: 16))
     }
+    func hindRegular16Blue() -> Text{
+        self
+            .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
+            .font(Font.custom("Hind-Regular", size: 16))
+    }
+    //MARK: - playfair
+    func playfairBold14Black() -> Text{
+        self
+            .foregroundColor(Color(UIColor(named: "ColorBlack333")!))
+            .font(Font.custom("PlayfairDisplay-Bold", size: 14))
+    }
+    //MARK: - Others
     func labelStyle() -> Text{
         self
+            .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
             .font(Font.custom("Hind-Bold", size: 12))
     }
 }

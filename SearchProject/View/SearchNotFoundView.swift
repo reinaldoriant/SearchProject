@@ -19,7 +19,7 @@ struct SearchNotFoundView: View {
                     .padding(.bottom, 16)
                 HStack{
                     Text("Rekomendasi untuk Anda")
-                        .titleStyle()
+                        .hindSemiBold16Black()
                         .modifier(TitleText())
                     Spacer()
                 }

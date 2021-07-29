@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HotTopicsView: View {
+struct HotTopicsViewItem: View {
     let hotTopics: String
     var body: some View {
         Text(hotTopics)
@@ -23,7 +23,7 @@ struct HotTopicsView: View {
 
 struct HotTopicsView_Previews: PreviewProvider {
     static var previews: some View {
-        HotTopicsView(hotTopics: HotList.dummyData.name)
+        HotTopicsViewItem(hotTopics: HotList.dummyData.name)
             .previewLayout(.sizeThatFits)
     }
 }

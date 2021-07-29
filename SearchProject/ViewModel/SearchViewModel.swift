@@ -12,25 +12,37 @@ class SearchViewModel: ObservableObject {
     
     //MARK: - Properties For Observe
     @Published var searchQuery = ""
-    @Published var searchTyping = ""
     @Published private(set) var _searchResultState: ResultState<[SearchArticle]> = .loading
+    @Published private(set) var _remoteSuggestionState: ResultState<[Document]> = .loading
     
     //MARK: - Properties View State
     @Published var isShowLanding : Bool = true
     @Published var isShowSearchResult : Bool = false
+    @Published var isLandingState: Bool = true
+    var isShowFilter : Bool {
+        return isShowSearchResult && !_searchResultList.isEmpty
+    }
+    var isShowClearText : Bool {
+        return !searchQuery.isEmpty && !isShowSearchResult && !isShowLanding
+    }
     
     //MARK: - Properties Date
     @Published var startDate : Date = Date()
     @Published var endDate : Date = Date()
-   
+    
     //MARK: - Propertiy Others
     private(set) var _searchResultList = [SearchArticle]()
+    private(set) var _remoteSuggestionList = [Document]()
     private let _service: SearchService
-    
     
     //MARK: - Properties Cancellable
     private var _cancellables = Set<AnyCancellable>()
     var searchCancellable: AnyCancellable? = nil
+    
+    //MARK: - Properties Loadmore
+    var next : Int? = 1
+    @Published var loadMore = false
+    
     
     //MARK: - Initialize
     init(service: SearchService){
@@ -39,14 +51,15 @@ class SearchViewModel: ObservableObject {
             .removeDuplicates()
             .debounce(for: 0.6, scheduler: RunLoop.main)
             .sink(receiveValue: { searchData in
-                if searchData == ""
+                if (searchData == "")
                 {
-                    print("Kosong")
+                    self._remoteSuggestionState = .success(content: [Document]())
                 }
                 else{
-                    self.searchTyping = self.searchQuery
-                    print(self.searchQuery)
-                    print(String(self.isShowSearchResult))
+                    if(searchData.count >= 3){
+                        self.getRemoteSuggestion(param: searchData)
+                        print(self.searchQuery)
+                    }
                 }
                 
             })
@@ -65,6 +78,7 @@ class SearchViewModel: ObservableObject {
             }
         }
     }
+    
     
     //MARK: - Get Search Result
     func getSearchResult() {
@@ -86,8 +100,55 @@ class SearchViewModel: ObservableObject {
                 }
             },receiveValue: { response in
                 self._searchResultList = response.result.articles
+                self.next = response.result.meta.next
+                self.loadMore = false
             })
         self._cancellables.insert(cancellable)
+    }
+    
+    //MARK: - InfiniteScroll
+    func infiniteScroll(){
+        let body : [String: Any?] = [
+            "search" : searchQuery,
+            "start" : nil,
+            "end" : nil,
+            "cursor" : next! as Int
+        ]
+        let cancelable = _service.getSearchResult(from: .getSearchResult(param: body as [String : Any]))
+            .sink(receiveCompletion: { res in
+                switch res {
+                case .finished:
+                    self._searchResultState = .success(content: self._searchResultList)
+                case .failure(let error):
+                    self._searchResultState = .failed(error: error)
+                }
+            }, receiveValue: { response in
+                for i in 0..<response.result.articles.count {
+                    self._searchResultList.append(response.result.articles[i])
+                }
+                self.next = response.result.meta.next
+                self.loadMore = false
+            })
+        self._cancellables.insert(cancelable)
+    }
+    
+    //MARK: - Get Remote Suggestion
+    func getRemoteSuggestion(param:String) {
+        let cancelable = _service.getRemoteSuggestions(from: .getRemoteSuggestion(param: param))
+            .sink(receiveCompletion:  { res in
+                switch res {
+                case .finished:
+                    self._remoteSuggestionState = .success(content: self._remoteSuggestionList)
+                case .failure(let error):
+                    self._remoteSuggestionState = .failed(error: error)
+                }
+            }, receiveValue: { response in
+                self._remoteSuggestionList = response.results.documents
+                
+            })
+        self._cancellables.insert(cancelable)
+        
+        
     }
     
     enum SearchViewState{

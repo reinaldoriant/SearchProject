@@ -47,9 +47,9 @@ struct SearchListViewItem: View {
             LabelView(label: article.isFreemium)
                 .padding(.bottom, 8)
             Text(article.title)
-                .titleNewsSearchStyle()
+                .playfairBold14Black()
             Text(getDateWithCategory(date: article.publishedDate, category: (article.terms?.category![0].name)!))
-                .dateSearchStyle()
+                .hindRegular12Gray()
         }
         .modifier(BoxSearchText())
     }
@@ -57,9 +57,9 @@ struct SearchListViewItem: View {
     var isNotFree: some View {
             VStack(alignment: .leading, spacing: 0){
                 Text(article.title)
-                    .titleNewsSearchStyle()
+                    .playfairBold14Black()
                 Text(getDateWithCategory(date: article.publishedDate, category: (article.terms?.category![0].name)!))
-                    .dateSearchStyle()
+                    .hindRegular12Gray()
                 Spacer()
             }
             .modifier(BoxSearchText())

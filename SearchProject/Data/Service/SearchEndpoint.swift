@@ -29,24 +29,32 @@ extension SearchAPI: APIBuilder {
     //MARK: - Request API
     var urlRequest: URLRequest {
         switch self {
+        
         //get data hot topics
+        
         case .getHotTopics(let param):
             var getHotTopics = URLComponents(string: self.baseUrl.appendingPathComponent(self.path).absoluteString)
             getHotTopics?.queryItems =  [URLQueryItem(name: "timestamp", value: param )]
             return URLRequest(url: (getHotTopics?.url!)!)
+            
         //get data terpopuler
+        
         case .getTerpopuler:
             var getTerpopuler = URLRequest(url: self.baseUrl.appendingPathComponent(self.path))
             getTerpopuler.addValue("Bearer \(TOKEN_BEARER)", forHTTPHeaderField: "Authorization")
             return getTerpopuler
+            
         //get data remote suggestion
+        
         case .getRemoteSuggestion(let param):
             var getRemoteSuggestion = URLComponents(string: self.baseUrl.appendingPathComponent(self.path).absoluteString)
             getRemoteSuggestion?.queryItems = [URLQueryItem(name: "query", value: param)]
             var getRemoteSuggestionFinal = URLRequest(url: (getRemoteSuggestion?.url)!)
-            getRemoteSuggestionFinal.addValue("Bearer \(TOKEN_BEARER)", forHTTPHeaderField: "Authorization")
+            getRemoteSuggestionFinal.addValue("Bearer \(SEARCH_TOKEN)", forHTTPHeaderField: "Authorization")
             return getRemoteSuggestionFinal
+            
         //get data search result
+        
         case .getSearchResult(let param):
             var getSearchResult = URLRequest(url: self.baseUrl.appendingPathComponent(self.path))
             getSearchResult.httpMethod = "POST"
@@ -54,16 +62,17 @@ extension SearchAPI: APIBuilder {
             getSearchResult.addValue("Bearer \(TOKEN_BEARER)", forHTTPHeaderField: "Authorization")
             getSearchResult.httpBody = requestBodyFrom(params: param)
             return getSearchResult
-        //get data search result
+            
+        //get data Rekomendasi
         case .getRekomendasi(let slug, let siteid, let timestamp, let taxonomy):
             print(slug,siteid,timestamp,taxonomy)
+            
             var getRekomendasi = URLComponents(string: self.baseUrl.appendingPathComponent(self.path).absoluteString)
             let slugURL =  URLQueryItem(name: "slug", value: slug )
             let siteidURL =  URLQueryItem(name: "siteid", value: siteid )
             let timestampURL =  URLQueryItem(name: "timestamp", value: timestamp )
             let taxonomyURL =  URLQueryItem(name: "taxonomy", value: taxonomy )
             getRekomendasi?.queryItems = [slugURL,siteidURL,timestampURL,taxonomyURL]
-            print(getRekomendasi!)
             var getRekomendasiFinal = URLRequest(url: (getRekomendasi?.url)!)
             getRekomendasiFinal.addValue("Bearer \(TOKEN_BEARER)", forHTTPHeaderField: "Authorization")
             return getRekomendasiFinal

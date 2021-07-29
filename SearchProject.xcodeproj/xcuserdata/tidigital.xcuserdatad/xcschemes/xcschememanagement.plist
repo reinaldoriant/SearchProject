@@ -6,8 +6,28 @@
 	<dict>
 		<key>SearchProject.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A542A75626B25BC6005D3C21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A542A76C26B25BC8005D3C21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A542A77726B25BC8005D3C21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

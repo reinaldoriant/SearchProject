@@ -13,7 +13,6 @@ struct SearchFieldViewItem: View {
     
     var body: some View {
         HStack{
-            backButton
             //MARK: - Search Box
             HStack {
                 Image(systemName: "magnifyingglass")
@@ -35,20 +34,8 @@ struct SearchFieldViewItem: View {
             .padding(.vertical,16)
         }
     }
-    var backButton : some View {
-        Button(action: {
-            if !viewModel.isShowLanding {
-                withAnimation{
-                    viewModel.isShowLanding = true
-                    viewModel.isShowSearchResult = false
-                }
-            }
-        }, label: {
-            Image(systemName: "arrow.left")
-                .padding(.leading,16)
-                .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
-        })
-    }
+    
+    
     
     func onInputData(){
         viewModel.getSearchResult()

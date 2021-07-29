@@ -16,9 +16,9 @@ struct LabelView: View {
             Text("Bebas Akses")
                 .labelStyle()
                 .padding(.horizontal,8)
-                .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
                 .background(Color(UIColor(named: "ColorBlueLabel")!))
                 .cornerRadius(4)
+               
         }
     }
 }

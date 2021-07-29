@@ -12,20 +12,39 @@ struct SearchFoundView: View {
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false){
-            VStack(alignment: .leading,spacing : 0 ){
+            VStack(alignment: .leading,spacing : 8 ){
                 ForEach(viewModel._searchResultList, id: \.name){ article in
                     SearchListViewItem(article: article)
-                        .padding(.vertical, 8)
+                        .padding(.horizontal,16)
                     Divider()
                 }
-                .padding(.horizontal,16)
+                if viewModel.loadMore {
+                    HStack{
+                        ProgressView()
+                            .onAppear{
+                                viewModel.infiniteScroll()
+                            }
+                    }
+                }
+                else {
+                    GeometryReader{ reader -> Color in
+                        let minY = Int(reader.frame(in: .global).minY + 45)
+                        
+                        let height = Int(UIScreen.main.bounds.height)
+                        print("miny =  \(minY) ,, height: \(height)")
+                        print(viewModel._searchResultList.isEmpty)
+                        if !viewModel._searchResultList.isEmpty && minY == height && viewModel.next != nil {
+                            DispatchQueue.main.async {
+                                viewModel.loadMore = true
+                            }
+                        }
+                        return Color.clear
+                    }
+                    
+                }
             }
+            
         }
-    }
-}
-
-struct SearchResultView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchFoundView(viewModel: SearchViewModel(service: SearchService()))
+        .padding(.top, -5)
     }
 }
