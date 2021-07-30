@@ -55,16 +55,18 @@ struct SearchListViewItem: View {
     }
     
     var isNotFree: some View {
-            VStack(alignment: .leading, spacing: 0){
-                Text(article.title)
-                    .playfairBold14Black()
-                Text(getDateWithCategory(date: article.publishedDate, category: (article.terms?.category![0].name)!))
-                    .hindRegular12Gray()
-                Spacer()
-            }
-            .modifier(BoxSearchText())
+        VStack(alignment: .leading, spacing: 0){
+            Text(article.title)
+                .playfairBold14Black()
+            Text(getDateWithCategory(date: article.publishedDate, category: (article.terms?.category![0].name)!))
+                .hindRegular12Gray()
+            Spacer()
+        }
+        .modifier(BoxSearchText())
     }
 }
+
+
 
 
 

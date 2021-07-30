@@ -15,9 +15,8 @@ struct SearchFoundView: View {
             VStack(alignment: .leading,spacing : 8 ){
                 ForEach(viewModel._searchResultList, id: \.name){ article in
                     SearchListViewItem(article: article)
-                        .padding(.horizontal,16)
                     Divider()
-                }
+                }.padding(.horizontal,16)
                 if viewModel.loadMore {
                     HStack{
                         ProgressView()

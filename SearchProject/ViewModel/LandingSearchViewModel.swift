@@ -29,18 +29,18 @@ class LandingSearchViewModel: ObservableObject,LandingSearchViewModelProtocol {
         self._service = service
     }
     func getHotTopics() {
-        self._hotTopicsState = .loading
-        let date = Date().getFormattedDate(format: "yyyy-MM-dd HH:mm:ss")
-        let cancellable = _service
-            .getHotTopics(from: .getHotTopics(param: "\(date)"))
-            .sink(receiveCompletion:{res in
-                switch res{
-                case .finished:
-                    self._hotTopicsState = .success(content: self._hotList)
-                case .failure(let error):
-                    self._hotTopicsState = .failed(error: error)
-                }
-            },receiveValue: { response in
+           self._hotTopicsState = .loading
+           let date = Date().getFormattedDate(format: "yyyy-MM-dd HH:mm:ss")
+           let cancellable = _service
+               .getHotTopics(from: .getHotTopics(param: "\(date)"))
+               .sink(receiveCompletion:{res in
+                   switch res{
+                   case .finished:
+                       self._hotTopicsState = .success(content: self._hotList)
+                   case .failure(let error):
+                       self._hotTopicsState = .failed(error: error)
+                   }
+               },receiveValue: { response in
                 self._hotList = response.result.hotList
             })
         self._cancellables.insert(cancellable)

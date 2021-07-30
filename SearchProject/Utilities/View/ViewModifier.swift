@@ -21,3 +21,16 @@ struct BoxSearchText: ViewModifier {
         
     }
 }
+
+struct BoxButton : ButtonStyle{
+    func makeBody(configuration: Configuration) -> some View {
+            configuration.label
+                .padding()
+                .frame(maxWidth: .infinity)
+                .frame(height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .background(Color(UIColor(named: "ColorBlueKompas")!))
+                .cornerRadius(4)
+                .scaleEffect(configuration.isPressed ? 1.2 : 1)
+                .animation(.easeIn(duration: 0.2), value: configuration.isPressed)
+    }
+}

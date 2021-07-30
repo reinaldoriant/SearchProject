@@ -14,6 +14,11 @@ extension Text{
             .foregroundColor(Color(UIColor(named: "ColorBlack333")!))
             .font(Font.custom("Hind-SemiBold", size: 16))
     }
+    func hindSemiBold18Black() -> Text{
+        self
+            .foregroundColor(Color(UIColor(named: "ColorBlack333")!))
+            .font(Font.custom("Hind-SemiBold", size: 18))
+    }
     func hindRegular12Gray() -> Text{
         self
             .foregroundColor(Color(UIColor(named: "ColorGray666")!))
@@ -41,5 +46,7 @@ extension Text{
             .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
             .font(Font.custom("Hind-Bold", size: 12))
     }
+    
 }
+
 

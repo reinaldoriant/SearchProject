@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import BottomSheet
+
+
 
 struct SearchView: View {
     //MARK: - Properties
     @StateObject private var _viewModel = SearchViewModel(service: SearchService())
-    
+    @State private var bottomSheetPosition: SearchBottomSheet = .hidden
+    @State var expand = false
     // MARK: - Body
     var body: some View {
         VStack {
@@ -24,6 +28,12 @@ struct SearchView: View {
                 searchResultView
             }
         }
+        .bottomSheet(
+            bottomSheetPosition: self.$bottomSheetPosition,
+            options: [.backgroundBlur(.systemMaterialDark),
+                      .tapToDissmiss, .swipeToDismiss, .noBottomPosition
+            ],
+            content: {searchBottomSheet} )
     }
     
     //MARK: - Search Bar
@@ -104,12 +114,15 @@ struct SearchView: View {
     }
     //MARK: - Search Filter
     var searchFilter: some View {
-        FilterViewItem()
+        Button(action: {
+            bottomSheetPosition = .medium
+        }, label: {
+            FilterViewItem()
+        })
     }
     
     //MARK: - Suggestion
     var searchSuggestion: some View {
-        
         SuggestionView(viewModel: _viewModel)
             .onAppear{
                 _viewModel.isLandingState = false
@@ -117,5 +130,75 @@ struct SearchView: View {
             }
     }
     
+    //MARK: - Search Bottom Sheet
+    var searchBottomSheet: some View {
+        VStack(alignment: .leading) {
+            //Filter Pencarian & Reset
+            HStack(alignment: .top) {
+                Text("Filter Pencarian")
+                    .hindSemiBold18Black()
+                Spacer()
+            }
+            .padding(.bottom, 16)
+            .padding(.top, 19)
+            //Tanggal Terbit & Rentang waktu
+            HStack(content: {
+                    Text("Tanggal Terbit")
+                        .hindSemiBold16Black()
+                    Spacer()
+                    Toggle(isOn: $_viewModel.isShowRange)
+                    {
+                        Text("Rentang waktu")
+                    }
+                    .toggleStyle(CheckboxStyle())
+                    .onChange(of: _viewModel.isShowRange, perform: { value in
+                        _viewModel.isShowRange.toggle()
+                    })}
+            ).padding(.bottom, 13)
+            
+            //Start date & end date
+            HStack(alignment: .center) {
+                DatePicker("", selection: $_viewModel.startDate, displayedComponents: .date)
+                    .datePickerStyle(CompactDatePickerStyle())
+                    .labelsHidden()
+                
+                if _viewModel.isShowRange {
+                    Spacer()
+                    Text("-")
+                    Spacer()
+                    DatePicker("", selection: $_viewModel.endDate, displayedComponents: .date)
+                        .datePickerStyle(CompactDatePickerStyle())
+                        .labelsHidden()
+                }
+            }.padding(.bottom,37)
+            //Button Apply
+            buttonApplyBottom
+        }
+        .padding(.horizontal,16)
+    }
+    
+    //MARK: - Button Apply Bottom Sheet
+    var buttonApplyBottom : some View{
+        HStack(alignment:.center) {
+            Button(action: {
+                _viewModel.isUseFilter = true
+                _viewModel.next = 1
+                _viewModel.getSearchResult()
+                _viewModel.isApplyFilter = true
+                bottomSheetPosition = .hidden
+            }, label: {
+                Text("Terapkan")
+                    .foregroundColor(.white)
+                    .hindSemiBold16Black()
+            })
+            .buttonStyle(BoxButton())
+        }
+    }
 }
+
+//The custom BottomSheetPosition enum.
+enum SearchBottomSheet: CGFloat, CaseIterable {
+    case medium = 0.3, hidden = 0
+}
+
 

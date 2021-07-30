@@ -19,16 +19,20 @@ class SearchViewModel: ObservableObject {
     @Published var isShowLanding : Bool = true
     @Published var isShowSearchResult : Bool = false
     @Published var isLandingState: Bool = true
-    var isShowFilter : Bool {
-        return isShowSearchResult && !_searchResultList.isEmpty
-    }
+    
     var isShowClearText : Bool {
         return !searchQuery.isEmpty && !isShowSearchResult && !isShowLanding
     }
     
-    //MARK: - Properties Date
+    //MARK: - Properties Filter
     @Published var startDate : Date = Date()
     @Published var endDate : Date = Date()
+    @Published var isUseFilter = false
+    @Published var isShowRange = false
+    var isApplyFilter = false
+    var isShowFilter : Bool {
+        return isShowSearchResult && !_searchResultList.isEmpty
+    }
     
     //MARK: - Propertiy Others
     private(set) var _searchResultList = [SearchArticle]()
@@ -85,10 +89,11 @@ class SearchViewModel: ObservableObject {
         self._searchResultState = .loading
         let body : [String: Any?] = [
             "search" : searchQuery,
-            "start" : nil,
-            "end" : nil,
+            "start" : isUseFilter ? "\(startDate.getFormattedDate(format: "yyyy-MM-dd"))" : nil,
+            "end" : isUseFilter ? "\(endDate.getFormattedDate(format: "yyyy-MM-dd"))" : nil,
             "cursor" : 1
         ]
+        print(startDate)
         let cancellable = _service
             .getSearchResult(from: .getSearchResult(param: body as [String : Any]))
             .sink(receiveCompletion:{res in
@@ -110,8 +115,8 @@ class SearchViewModel: ObservableObject {
     func infiniteScroll(){
         let body : [String: Any?] = [
             "search" : searchQuery,
-            "start" : nil,
-            "end" : nil,
+            "start" : isUseFilter ? "\(startDate)" : nil,
+            "end" : isUseFilter ? "\(endDate)" : nil,
             "cursor" : next! as Int
         ]
         let cancelable = _service.getSearchResult(from: .getSearchResult(param: body as [String : Any]))

@@ -1,4 +1,4 @@
-framework module Pods_SearchProject_SearchProjectUITests {
+module Pods_SearchProject_SearchProjectUITests {
   umbrella header "Pods-SearchProject-SearchProjectUITests-umbrella.h"
 
   export *
