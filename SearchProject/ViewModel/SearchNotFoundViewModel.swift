@@ -15,10 +15,10 @@ protocol  SearchNotFoundProtocol {
 class SearchNotFoundViewModel: ObservableObject,SearchNotFoundProtocol {
     
     //MARK: - Properties For Observe
-    @Published private(set) var _rekomendasiState: ResultState<[SearchArticle]> = .loading
+    @Published private(set) var _rekomendasiState: ResultState<[Article]> = .loading
     
     //MARK: - Property Others
-    private(set) var _rekomendasiList = [SearchArticle]()
+    private(set) var _rekomendasiList = [Article]()
     private let _service: SearchService
     
     //MARK: - Properties Cancellable
@@ -33,7 +33,7 @@ class SearchNotFoundViewModel: ObservableObject,SearchNotFoundProtocol {
         self._rekomendasiState = .loading
         let date = Date().getFormattedDate(format: "yyyy-MM-dd HH:mm:ss")
         let cancellable = _service
-            .getTerpopuler(from: .getRekomendasi(slug: "utama", siteid: "1", timestamp: "\(date)", taxonomy: "post_tag"))
+            .getRekomendasi(from: .getRekomendasi(slug: "utama", siteid: "1", timestamp: "\(date)", taxonomy: "post_tag"))
             .sink(receiveCompletion:{res in
                 switch res{
                 case .finished:

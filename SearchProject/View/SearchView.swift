@@ -28,6 +28,7 @@ struct SearchView: View {
                 searchResultView
             }
         }
+        
         .bottomSheet(
             bottomSheetPosition: self.$bottomSheetPosition,
             options: [.backgroundBlur(.systemMaterialDark),
@@ -80,10 +81,17 @@ struct SearchView: View {
     
     //MARK: - Landing Search
     var landingSearch : some View{
-        LandingSearchView()
-            .onAppear{
-                _viewModel.isLandingState = true
+        VStack(alignment: .leading, spacing: 24 ){
+            if(!_viewModel.localSuggestionDatas.isEmpty) {
+                withAnimation(.easeIn){
+                    LocalSuggestionView(viewModel: _viewModel,onItemTap: onTapSuggestion)
+                }
             }
+            LandingSearchView()
+        }.onAppear{
+            _viewModel.getLocalSuggestion()
+            _viewModel.isLandingState = true
+        }
     }
     
     //MARK: - Search Result
@@ -123,10 +131,11 @@ struct SearchView: View {
     
     //MARK: - Suggestion
     var searchSuggestion: some View {
-        SuggestionView(viewModel: _viewModel)
+        SuggestionView(viewModel: _viewModel,onItemTap: onTapSuggestion)
+            .padding(.leading,60)
+            .padding(.trailing,30)
             .onAppear{
                 _viewModel.isLandingState = false
-                
             }
     }
     
@@ -138,6 +147,8 @@ struct SearchView: View {
                 Text("Filter Pencarian")
                     .hindSemiBold18Black()
                 Spacer()
+                Text("Reset")
+                    .hindSemiBold16Blue()
             }
             .padding(.bottom, 16)
             .padding(.top, 19)
@@ -192,6 +203,13 @@ struct SearchView: View {
                     .hindSemiBold16Black()
             })
             .buttonStyle(BoxButton())
+        }
+    }
+    
+    //MARK: - On Tap Suggestion
+    func onTapSuggestion(string : String){
+        withAnimation {
+            _viewModel.onTapSuggestion(text: string)
         }
     }
 }

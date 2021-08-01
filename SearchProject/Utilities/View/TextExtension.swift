@@ -34,6 +34,11 @@ extension Text{
             .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
             .font(Font.custom("Hind-Regular", size: 16))
     }
+    func hindSemiBold16Blue() -> Text{
+        self
+            .foregroundColor(Color(UIColor(named: "ColorBlueKompas")!))
+            .font(Font.custom("Hind-SemiBold", size: 16))
+    }
     //MARK: - playfair
     func playfairBold14Black() -> Text{
         self

@@ -9,10 +9,11 @@ import SwiftUI
 
 @main
 struct SearchProjectApp: App {
-    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
             LaunchScreenView()
         }
     }
+    
 }

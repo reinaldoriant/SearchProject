@@ -28,7 +28,7 @@ struct SearchNotFoundView: View {
                     case .loading:
                         ProgressView().padding(.leading,16)
                     case .success(let content):
-                        TerpopulerViewItem(article: content)
+                        RekomendasiViewItem(articles: content)
                             .padding(.horizontal,16)
                     case .failed(let error):
                         Text("error \(error.localizedDescription)")

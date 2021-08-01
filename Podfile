@@ -6,7 +6,6 @@ target 'SearchProject' do
   # Pods for SearchProject
 
   pod 'URLImage'
-
   target 'SearchProjectTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3FA93F7-FC27-4DAF-8C8E-BCCB768601E5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB7133F6-4E43-4119-9B1E-C6A2275C126C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchProject/Data/Service/SearchEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "APIBuilder"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB5CC197-0CAF-488A-97D9-7E2CD0C23C9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchProject/View/LocalSuggestionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EB5CC197-0CAF-488A-97D9-7E2CD0C23C9A - 57cf3291ee959a6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;SearchProject.TaskViewModel&gt;, __C.NSManagedObjectID, SearchProject.LocalSuggestionViewItem&gt;)&gt; in SearchProject.LocalSuggestionView.body.getter : some"
+                  moduleName = "SearchProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tidigital/Documents/MyApps(iOS)/SearchProject/SearchProject/View/LocalSuggestionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "EB5CC197-0CAF-488A-97D9-7E2CD0C23C9A - 913528003f6931ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;SearchProject.TaskViewModel&gt;, __C.NSManagedObjectID, SearchProject.LocalSuggestionViewItem&gt;)&gt; in SearchProject.LocalSuggestionView.body.getter : some"
+                  moduleName = "SearchProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tidigital/Documents/MyApps(iOS)/SearchProject/SearchProject/View/LocalSuggestionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

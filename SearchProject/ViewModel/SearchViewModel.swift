@@ -7,13 +7,17 @@
 
 import Foundation
 import Combine
+import CoreData
 
 class SearchViewModel: ObservableObject {
+    
+    
     
     //MARK: - Properties For Observe
     @Published var searchQuery = ""
     @Published private(set) var _searchResultState: ResultState<[SearchArticle]> = .loading
     @Published private(set) var _remoteSuggestionState: ResultState<[Document]> = .loading
+    @Published var localSuggestionDatas: [TaskViewModel] = []
     
     //MARK: - Properties View State
     @Published var isShowLanding : Bool = true
@@ -83,6 +87,10 @@ class SearchViewModel: ObservableObject {
         }
     }
     
+    var showLocalSuggestions : [TaskViewModel] {
+        let data = localSuggestionDatas.count >= 5 ? Array(localSuggestionDatas.prefix(5)) : localSuggestionDatas
+        return data
+    }
     
     //MARK: - Get Search Result
     func getSearchResult() {
@@ -156,9 +164,54 @@ class SearchViewModel: ObservableObject {
         
     }
     
+    //MARK: - Save Local Suggestion
+    func saveLocalSuggestion(){
+        let localSuggestion = LocalSuggestion(context: CoreDataManager.shared.viewContext)
+        localSuggestion.name = searchQuery
+        CoreDataManager.shared.save()
+        
+    }
+    //MARK: - Fetch data Local Suggestion
+    
+    func getLocalSuggestion(){
+        localSuggestionDatas = CoreDataManager.shared.getAll().map(TaskViewModel.init).reversed()
+    }
+    
+    //MARK: - Delete data Local Suggestion
+    func deleteLocalSuggestion(_ name: LocalSuggestion) {
+        CoreDataManager.shared.delete(name: name)
+        getLocalSuggestion()
+    }
+    
+    //MARK: - Delete data Local Suggestion
+    func deleteAllLocalSuggestion() {
+        CoreDataManager.shared.deleteAll()
+        getLocalSuggestion()
+    }
+    
+    func onTapSuggestion(text: String){
+        searchQuery = text
+        isShowSearchResult = true
+        getSearchResult()
+        isShowLanding = false
+    }
+    
+    //MARK: - Enum
     enum SearchViewState{
         case searchSuggestion
         case searchLanding
         case searchResult
+    }
+    
+   
+}
+
+struct TaskViewModel {
+    let localSuggestion: LocalSuggestion
+    var id : NSManagedObjectID{
+        return localSuggestion.objectID
+    }
+    var name: String {
+        return localSuggestion.name ?? ""
     }
 }

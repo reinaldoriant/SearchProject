@@ -84,15 +84,20 @@ enum TypeEnumRecommend: String, Codable {
     case postArticle = "post-article"
 }
 
+enum StatusRecommend: String, Codable {
+    case publish = "publish"
+}
 
 // MARK: - Terms
 struct TermsRecommend: Codable {
     let category, followingUsers, postTag: [CategoryRecommend]
+    let postFormat: [CategoryRecommend]?
 
     enum CodingKeys: String, CodingKey {
         case category
         case followingUsers
         case postTag
+        case postFormat
     }
 }
 
@@ -103,34 +108,35 @@ struct CategoryRecommend: Codable {
 
 // MARK: - Thumbnails
 class ThumbnailsRecommend: Codable {
-    let thumbnail, medium, mediumLarge, postThumbnail: Large?
-    let thumbnailMedium: Large?
+    let thumbnail, medium, mediumLarge, large: LargeRecommend?
+    let postThumbnail, thumbnailMedium: LargeRecommend?
     let original: Original
     let sizes: ThumbnailsRecommend?
     let meta: ThumbnailsMeta?
-    let large: Large?
 
     enum CodingKeys: String, CodingKey {
         case thumbnail, medium
         case mediumLarge
+        case large
         case postThumbnail
         case thumbnailMedium
-        case original, sizes, meta, large
+        case original, sizes, meta
     }
 
-    init(thumbnail: Large?, medium: Large?, mediumLarge: Large, postThumbnail: Large?, thumbnailMedium: Large?, original: Original, sizes: ThumbnailsRecommend?, meta: ThumbnailsMeta?, large: Large?) {
+    init(thumbnail: LargeRecommend, medium: LargeRecommend, mediumLarge: LargeRecommend, large: LargeRecommend?, postThumbnail: LargeRecommend, thumbnailMedium: LargeRecommend, original: Original, sizes: ThumbnailsRecommend?, meta: ThumbnailsMeta?) {
         self.thumbnail = thumbnail
         self.medium = medium
         self.mediumLarge = mediumLarge
+        self.large = large
         self.postThumbnail = postThumbnail
         self.thumbnailMedium = thumbnailMedium
         self.original = original
         self.sizes = sizes
         self.meta = meta
-        self.large = large
+        
     }
     
-    var availableSizes : String? {
+    var availableSizesRecom : String? {
         return (medium != nil) ? medium?.permalink : (large != nil) ? large?.permalink : (mediumLarge != nil) ? mediumLarge?.permalink : original.permalink
     }
 }
@@ -154,7 +160,7 @@ enum MIMETypeRecommend: String, Codable {
 
 // MARK: - ThumbnailsMeta
 struct ThumbnailsMetaRecommend: Codable {
-    let photographerName: ArticleByLine
+    let photographerName: ArticleByLine?
 
     enum CodingKeys: String, CodingKey {
         case photographerName
@@ -189,9 +195,9 @@ class JSONNullRecommend: Codable, Hashable {
     public static func == (lhs: JSONNullRecommend, rhs: JSONNullRecommend) -> Bool {
         return true
     }
-
-    public var hashValue: Int {
-        return 0
+    
+    func hash(into hasher: inout Hasher) {
+        
     }
 
     public init() {}

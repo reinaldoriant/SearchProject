@@ -20,6 +20,22 @@ struct SearchFieldViewItem: View {
                 TextField("Cari Berita ini...", text: $viewModel.searchQuery, onCommit: {
                     onInputData()
                 })
+                Group {
+                    switch viewModel.isShowClearText {
+                    case true:
+                        Image(systemName: "xmark")
+                            .resizable()
+                            .frame(width: 10, height: 10)
+                            .foregroundColor(.gray)
+                            .padding(.init(top: 0, leading: 0, bottom: 0, trailing: 8))
+                            .onTapGesture {
+                                viewModel.searchQuery = ""
+                            }
+                            
+                    case false:
+                        EmptyView()
+                    }
+                }
             }
             .padding(.vertical, 8)
             .padding(.horizontal, 8)
@@ -38,8 +54,10 @@ struct SearchFieldViewItem: View {
     
     
     func onInputData(){
+        viewModel.getLocalSuggestion()
         viewModel.getSearchResult()
         viewModel.isShowSearchResult.toggle()
+        viewModel.saveLocalSuggestion()
     }
 }
 

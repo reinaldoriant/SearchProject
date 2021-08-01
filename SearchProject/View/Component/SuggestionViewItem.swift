@@ -9,17 +9,21 @@ import SwiftUI
 
 struct SuggestionViewItem: View {
     let suggestion : String
+    var onTapItem : (_ name: String) -> Void = {_ in}
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16){
-            HStack {
-                Image(systemName: "magnifyingglass")
-                    .foregroundColor(Color(UIColor(named: "ColorGray300")!))
-                    .padding(.trailing,8)
-                Text(suggestion)
-                    .hindRegular16Black()
-            }.frame(width: 279, alignment: .leading)
+        HStack {
+            Image(systemName: "magnifyingglass")
+                .foregroundColor(Color(UIColor(named: "ColorGray300")!))
+                .padding(.trailing,8)
+            Text(suggestion)
+                .hindRegular16Black()
+            Spacer()
         }
+        .onTapGesture {
+            onTapItem(suggestion)
+        }
+        
     }
 }
 

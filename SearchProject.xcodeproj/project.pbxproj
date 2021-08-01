@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		02809BD86F8E615BD3D9F33D /* libPods-SearchProject-SearchProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B4E24244B9A55AC458A9AD /* libPods-SearchProject-SearchProjectUITests.a */; };
 		9A6FBA124E9B7FB3843F0AD0 /* libPods-SearchProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BFC8664552702BBF968DC2 /* libPods-SearchProjectTests.a */; };
+		A51F914926B6D4AA0021253F /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = A51F914826B6D4AA0021253F /* BottomSheet */; };
+		A51F914D26B6E82D0021253F /* LocalSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F914C26B6E82D0021253F /* LocalSuggestionView.swift */; };
+		A51F914F26B6E8790021253F /* LocalSuggestionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F914E26B6E8790021253F /* LocalSuggestionViewItem.swift */; };
 		A542A75B26B25BC6005D3C21 /* SearchProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A75A26B25BC6005D3C21 /* SearchProjectApp.swift */; };
 		A542A75D26B25BC6005D3C21 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A75C26B25BC6005D3C21 /* LaunchScreenView.swift */; };
 		A542A75F26B25BC8005D3C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A542A75E26B25BC8005D3C21 /* Assets.xcassets */; };
 		A542A76226B25BC8005D3C21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A542A76126B25BC8005D3C21 /* Preview Assets.xcassets */; };
-		A542A76426B25BC8005D3C21 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A76326B25BC8005D3C21 /* Persistence.swift */; };
-		A542A76726B25BC8005D3C21 /* SearchProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A542A76526B25BC8005D3C21 /* SearchProject.xcdatamodeld */; };
 		A542A77226B25BC8005D3C21 /* SearchProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A77126B25BC8005D3C21 /* SearchProjectTests.swift */; };
 		A542A77D26B25BC8005D3C21 /* SearchProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A77C26B25BC8005D3C21 /* SearchProjectUITests.swift */; };
 		A542A79A26B25D4E005D3C21 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A79826B25D4E005D3C21 /* SearchViewModel.swift */; };
@@ -57,9 +58,12 @@
 		A542A81A26B2D7BB005D3C21 /* SpinnerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542A81926B2D7BB005D3C21 /* SpinnerBar.swift */; };
 		A5496AB226B3585B00CA8F37 /* FilterViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5496AB126B3585B00CA8F37 /* FilterViewItem.swift */; };
 		A5496AB426B36A6200CA8F37 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5496AB326B36A6200CA8F37 /* LabelView.swift */; };
-		A5496AB726B379AE00CA8F37 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = A5496AB626B379AE00CA8F37 /* BottomSheet */; };
 		A5496AB926B3994500CA8F37 /* HTMLtoString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5496AB826B3994500CA8F37 /* HTMLtoString.swift */; };
 		A5496ABD26B3AF1C00CA8F37 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5496ABC26B3AF1C00CA8F37 /* CheckBoxStyle.swift */; };
+		A554067A26B69B6E007CCFBD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554067926B69B6E007CCFBD /* CoreDataManager.swift */; };
+		A554067D26B69C22007CCFBD /* KompasAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A554067B26B69C22007CCFBD /* KompasAppModel.xcdatamodeld */; };
+		A59534B426B424D90025F837 /* RekomendasiViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59534B326B424D90025F837 /* RekomendasiViewItem.swift */; };
+		A59534B626B425220025F837 /* RekomendasiListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59534B526B425220025F837 /* RekomendasiListViewItem.swift */; };
 		C78D71B9D9EA4EF6C4F29CCC /* libPods-SearchProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C915B4A404AE3D64C1345D /* libPods-SearchProject.a */; };
 /* End PBXBuildFile section */
 
@@ -88,13 +92,13 @@
 		9297B693EB30C630B2ECA0E2 /* Pods-SearchProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchProject.release.xcconfig"; path = "Target Support Files/Pods-SearchProject/Pods-SearchProject.release.xcconfig"; sourceTree = "<group>"; };
 		937024C5F10528B18C4C92F0 /* Pods-SearchProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SearchProjectTests/Pods-SearchProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		95B4E24244B9A55AC458A9AD /* libPods-SearchProject-SearchProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SearchProject-SearchProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F914C26B6E82D0021253F /* LocalSuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSuggestionView.swift; sourceTree = "<group>"; };
+		A51F914E26B6E8790021253F /* LocalSuggestionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSuggestionViewItem.swift; sourceTree = "<group>"; };
 		A542A75726B25BC6005D3C21 /* SearchProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A542A75A26B25BC6005D3C21 /* SearchProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProjectApp.swift; sourceTree = "<group>"; };
 		A542A75C26B25BC6005D3C21 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		A542A75E26B25BC8005D3C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A542A76126B25BC8005D3C21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A542A76326B25BC8005D3C21 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A542A76626B25BC8005D3C21 /* SearchProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SearchProject.xcdatamodel; sourceTree = "<group>"; };
 		A542A76826B25BC8005D3C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A542A76D26B25BC8005D3C21 /* SearchProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A542A77126B25BC8005D3C21 /* SearchProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProjectTests.swift; sourceTree = "<group>"; };
@@ -146,6 +150,10 @@
 		A5496AB326B36A6200CA8F37 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		A5496AB826B3994500CA8F37 /* HTMLtoString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLtoString.swift; sourceTree = "<group>"; };
 		A5496ABC26B3AF1C00CA8F37 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
+		A554067926B69B6E007CCFBD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A554067C26B69C22007CCFBD /* KompasAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KompasAppModel.xcdatamodel; sourceTree = "<group>"; };
+		A59534B326B424D90025F837 /* RekomendasiViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekomendasiViewItem.swift; sourceTree = "<group>"; };
+		A59534B526B425220025F837 /* RekomendasiListViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekomendasiListViewItem.swift; sourceTree = "<group>"; };
 		CDB4F0E3BD13657FB60237DA /* Pods-SearchProject-SearchProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchProject-SearchProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SearchProject-SearchProjectUITests/Pods-SearchProject-SearchProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7C915B4A404AE3D64C1345D /* libPods-SearchProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SearchProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78D71B9D9EA4EF6C4F29CCC /* libPods-SearchProject.a in Frameworks */,
-				A5496AB726B379AE00CA8F37 /* BottomSheet in Frameworks */,
+				A51F914926B6D4AA0021253F /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +230,7 @@
 				A542A75A26B25BC6005D3C21 /* SearchProjectApp.swift */,
 				A542A75C26B25BC6005D3C21 /* LaunchScreenView.swift */,
 				A542A75E26B25BC8005D3C21 /* Assets.xcassets */,
-				A542A76326B25BC8005D3C21 /* Persistence.swift */,
 				A542A76826B25BC8005D3C21 /* Info.plist */,
-				A542A76526B25BC8005D3C21 /* SearchProject.xcdatamodeld */,
 				A542A76026B25BC8005D3C21 /* Preview Content */,
 			);
 			path = SearchProject;
@@ -259,6 +265,7 @@
 		A542A78E26B25D11005D3C21 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A554067826B69B56007CCFBD /* Local */,
 				A542A79026B25D1E005D3C21 /* Service */,
 				A542A78F26B25D15005D3C21 /* Model */,
 			);
@@ -273,6 +280,7 @@
 				A542A7B426B25DD3005D3C21 /* RecommendationModel.swift */,
 				A542A7B326B25DD3005D3C21 /* RemoteSuggestionModel.swift */,
 				A542A7B126B25DD3005D3C21 /* SearchDetailModel.swift */,
+				A554067B26B69C22007CCFBD /* KompasAppModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,6 +349,7 @@
 				A542A7D826B25F5A005D3C21 /* SearchNotFoundView.swift */,
 				A542A7DA26B25F5A005D3C21 /* SearchView.swift */,
 				A542A81526B2844D005D3C21 /* SuggestionView.swift */,
+				A51F914C26B6E82D0021253F /* LocalSuggestionView.swift */,
 				A542A7D626B25F3F005D3C21 /* Component */,
 			);
 			path = View;
@@ -355,9 +364,12 @@
 				A542A7C926B25F09005D3C21 /* SearchListViewItem.swift */,
 				A542A7C626B25F09005D3C21 /* SearchNotFoundViewDescItem.swift */,
 				A542A7C126B25F09005D3C21 /* TerpopulerViewItem.swift */,
+				A59534B326B424D90025F837 /* RekomendasiViewItem.swift */,
 				A542A7F626B26DEB005D3C21 /* HotTopicsView.swift */,
 				A5496AB126B3585B00CA8F37 /* FilterViewItem.swift */,
 				A5496ABC26B3AF1C00CA8F37 /* CheckBoxStyle.swift */,
+				A59534B526B425220025F837 /* RekomendasiListViewItem.swift */,
+				A51F914E26B6E8790021253F /* LocalSuggestionViewItem.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -373,6 +385,14 @@
 				A542A81326B2828B005D3C21 /* PlayfairDisplay-Bold.ttc */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		A554067826B69B56007CCFBD /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				A554067926B69B6E007CCFBD /* CoreDataManager.swift */,
+			);
+			path = Local;
 			sourceTree = "<group>";
 		};
 		C7EF06144D3E258457EE93C1 /* Pods */ = {
@@ -403,10 +423,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				A51F914626B6D07B0021253F /* PBXTargetDependency */,
 			);
 			name = SearchProject;
 			packageProductDependencies = (
-				A5496AB626B379AE00CA8F37 /* BottomSheet */,
+				A51F914826B6D4AA0021253F /* BottomSheet */,
 			);
 			productName = SearchProject;
 			productReference = A542A75726B25BC6005D3C21 /* SearchProject.app */;
@@ -482,7 +503,7 @@
 			);
 			mainGroup = A542A74E26B25BC6005D3C21;
 			packageReferences = (
-				A5496AB526B379AE00CA8F37 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				A51F914726B6D4AA0021253F /* XCRemoteSwiftPackageReference "BottomSheet" */,
 			);
 			productRefGroup = A542A75826B25BC6005D3C21 /* Products */;
 			projectDirPath = "";
@@ -608,29 +629,33 @@
 				A542A7DE26B25F5A005D3C21 /* SearchView.swift in Sources */,
 				A542A79B26B25D4E005D3C21 /* LandingSearchViewModel.swift in Sources */,
 				A542A7DB26B25F5A005D3C21 /* LandingSearchView.swift in Sources */,
-				A542A76426B25BC8005D3C21 /* Persistence.swift in Sources */,
+				A59534B626B425220025F837 /* RekomendasiListViewItem.swift in Sources */,
 				A542A79A26B25D4E005D3C21 /* SearchViewModel.swift in Sources */,
 				A542A75D26B25BC6005D3C21 /* LaunchScreenView.swift in Sources */,
 				A542A7DD26B25F5A005D3C21 /* SearchFoundView.swift in Sources */,
+				A554067A26B69B6E007CCFBD /* CoreDataManager.swift in Sources */,
 				A542A7E426B2613F005D3C21 /* ResultState.swift in Sources */,
 				A542A7BD26B25DDB005D3C21 /* SearchEndpoint.swift in Sources */,
 				A542A7AF26B25D56005D3C21 /* ViewExtension.swift in Sources */,
 				A542A7D026B25F09005D3C21 /* SuggestionViewItem.swift in Sources */,
 				A542A7EA26B261A9005D3C21 /* Date.swift in Sources */,
+				A554067D26B69C22007CCFBD /* KompasAppModel.xcdatamodeld in Sources */,
+				A59534B426B424D90025F837 /* RekomendasiViewItem.swift in Sources */,
 				A542A75B26B25BC6005D3C21 /* SearchProjectApp.swift in Sources */,
 				A542A7E026B26099005D3C21 /* ErrorResponse.swift in Sources */,
 				A542A7EE26B26264005D3C21 /* NetworkLibrary.swift in Sources */,
 				A542A7BE26B25DDB005D3C21 /* SearchService.swift in Sources */,
 				A542A7CE26B25F09005D3C21 /* PlaceholderImageViewItem.swift in Sources */,
 				A542A7D426B25F09005D3C21 /* SearchListViewItem.swift in Sources */,
+				A51F914F26B6E8790021253F /* LocalSuggestionViewItem.swift in Sources */,
 				A542A81626B2844D005D3C21 /* SuggestionView.swift in Sources */,
+				A51F914D26B6E82D0021253F /* LocalSuggestionView.swift in Sources */,
 				A542A7D526B25F09005D3C21 /* SearchFieldViewItem.swift in Sources */,
 				A5496AB226B3585B00CA8F37 /* FilterViewItem.swift in Sources */,
 				A542A7B626B25DD3005D3C21 /* SearchDetailModel.swift in Sources */,
 				A542A81A26B2D7BB005D3C21 /* SpinnerBar.swift in Sources */,
 				A5496AB926B3994500CA8F37 /* HTMLtoString.swift in Sources */,
 				A542A7AE26B25D56005D3C21 /* Constant.swift in Sources */,
-				A542A76726B25BC8005D3C21 /* SearchProject.xcdatamodeld in Sources */,
 				A5496ABD26B3AF1C00CA8F37 /* CheckBoxStyle.swift in Sources */,
 				A542A79D26B25D4E005D3C21 /* SearchNotFoundViewModel.swift in Sources */,
 				A542A7CC26B25F09005D3C21 /* TerpopulerViewItem.swift in Sources */,
@@ -663,6 +688,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A51F914626B6D07B0021253F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = A51F914526B6D07B0021253F /* BottomSheet */;
+		};
 		A542A76F26B25BC8005D3C21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A542A75626B25BC6005D3C21 /* SearchProject */;
@@ -969,6 +998,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A51F914726B6D4AA0021253F /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LucasMucGH/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
 		A5496AB526B379AE00CA8F37 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/LucasMucGH/BottomSheet.git";
@@ -980,21 +1017,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A5496AB626B379AE00CA8F37 /* BottomSheet */ = {
+		A51F914526B6D07B0021253F /* BottomSheet */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A5496AB526B379AE00CA8F37 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+		A51F914826B6D4AA0021253F /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A51F914726B6D4AA0021253F /* XCRemoteSwiftPackageReference "BottomSheet" */;
 			productName = BottomSheet;
 		};
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		A542A76526B25BC8005D3C21 /* SearchProject.xcdatamodeld */ = {
+		A554067B26B69C22007CCFBD /* KompasAppModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A542A76626B25BC8005D3C21 /* SearchProject.xcdatamodel */,
+				A554067C26B69C22007CCFBD /* KompasAppModel.xcdatamodel */,
 			);
-			currentVersion = A542A76626B25BC8005D3C21 /* SearchProject.xcdatamodel */;
-			path = SearchProject.xcdatamodeld;
+			currentVersion = A554067C26B69C22007CCFBD /* KompasAppModel.xcdatamodel */;
+			path = KompasAppModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
