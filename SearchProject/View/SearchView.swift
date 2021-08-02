@@ -32,7 +32,8 @@ struct SearchView: View {
         .bottomSheet(
             bottomSheetPosition: self.$bottomSheetPosition,
             options: [.backgroundBlur(.systemMaterialDark),
-                      .tapToDissmiss, .swipeToDismiss, .noBottomPosition
+                      .tapToDissmiss, .swipeToDismiss, .noBottomPosition, .background(AnyView(Color.white)),
+                      .noBottomPosition
             ],
             content: {searchBottomSheet} )
     }
@@ -152,6 +153,7 @@ struct SearchView: View {
             }
             .padding(.bottom, 16)
             .padding(.top, 19)
+            .padding(.horizontal,16)
             //Tanggal Terbit & Rentang waktu
             HStack(content: {
                     Text("Tanggal Terbit")
@@ -166,7 +168,7 @@ struct SearchView: View {
                         _viewModel.isShowRange.toggle()
                     })}
             ).padding(.bottom, 13)
-            
+            .padding(.horizontal,16)
             //Start date & end date
             HStack(alignment: .center) {
                 DatePicker("", selection: $_viewModel.startDate, displayedComponents: .date)
@@ -182,10 +184,25 @@ struct SearchView: View {
                         .labelsHidden()
                 }
             }.padding(.bottom,37)
+            .padding(.horizontal,16)
             //Button Apply
-            buttonApplyBottom
+            
+            ZStack{
+                Rectangle()
+                    .fill(Color.white)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .ignoresSafeArea(.all, edges: .bottom)
+                    .shadow(radius: 1)
+                buttonApplyBottom
+                    .padding(.horizontal,16)
+                    .padding(.top,10)
+            }
+            
+            
+            
+            
         }
-        .padding(.horizontal,16)
+        
     }
     
     //MARK: - Button Apply Bottom Sheet
@@ -216,7 +233,7 @@ struct SearchView: View {
 
 //The custom BottomSheetPosition enum.
 enum SearchBottomSheet: CGFloat, CaseIterable {
-    case medium = 0.3, hidden = 0
+    case medium = 0.35, hidden = 0
 }
 
 
