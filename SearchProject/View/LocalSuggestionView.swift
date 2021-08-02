@@ -23,6 +23,7 @@ struct LocalSuggestionView: View {
                         .foregroundColor(Color(UIColor(named: "ColorRed700")!))
                         .hindSemiBold16Black()
                 })
+                .accessibilityIdentifier("buttonHapusSemua")
                 
             }
             ForEach(viewModel.showLocalSuggestions, id:\.id){ data in

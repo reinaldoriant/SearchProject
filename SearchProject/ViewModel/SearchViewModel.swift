@@ -41,7 +41,7 @@ class SearchViewModel: ObservableObject {
     //MARK: - Propertiy Others
     private(set) var _searchResultList = [SearchArticle]()
     private(set) var _remoteSuggestionList = [Document]()
-    private let _service: SearchService
+    private let _service: SearchServiceProtocol
     
     //MARK: - Properties Cancellable
     private var _cancellables = Set<AnyCancellable>()
@@ -49,11 +49,11 @@ class SearchViewModel: ObservableObject {
     
     //MARK: - Properties Loadmore
     var next : Int? = 1
-    @Published var loadMore = false
+    @Published var loadMoreDown = false
     
     
     //MARK: - Initialize
-    init(service: SearchService){
+    init(service: SearchServiceProtocol){
         self._service = service
         searchCancellable = $searchQuery
             .removeDuplicates()
@@ -114,7 +114,7 @@ class SearchViewModel: ObservableObject {
             },receiveValue: { response in
                 self._searchResultList = response.result.articles
                 self.next = response.result.meta.next
-                self.loadMore = false
+                self.loadMoreDown = false
             })
         self._cancellables.insert(cancellable)
     }
@@ -140,7 +140,7 @@ class SearchViewModel: ObservableObject {
                     self._searchResultList.append(response.result.articles[i])
                 }
                 self.next = response.result.meta.next
-                self.loadMore = false
+                self.loadMoreDown = false
             })
         self._cancellables.insert(cancelable)
     }

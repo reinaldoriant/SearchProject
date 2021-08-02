@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct SpinnerBar: View {
+    @State private var isLoading = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Circle()
+                .frame(width: 40, height: 40)
+                .foregroundColor(Color.white)
+                .shadow(radius: 2)
+            Circle()
+                .trim(from: 0, to: 0.7)
+                .stroke(Color(UIColor(named: "ColorBlueKompas")!), lineWidth: 2)
+                .frame(width: 30, height: 30)
+                .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
+                .animation(Animation.default.repeatForever(autoreverses: false))
+                .onAppear() {
+                    self.isLoading = true
+                }
+        }
     }
 }
 
-struct SpinnerBar_Previews: PreviewProvider {
-    static var previews: some View {
-        SpinnerBar()
-            .previewDevice("iPhone 11")
-    }
-}

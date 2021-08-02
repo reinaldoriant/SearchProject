@@ -82,17 +82,22 @@ struct SearchView: View {
     
     //MARK: - Landing Search
     var landingSearch : some View{
-        VStack(alignment: .leading, spacing: 24 ){
-            if(!_viewModel.localSuggestionDatas.isEmpty) {
-                withAnimation(.easeIn){
-                    LocalSuggestionView(viewModel: _viewModel,onItemTap: onTapSuggestion)
+        ScrollView(.vertical, showsIndicators: false){
+            VStack(alignment: .leading, spacing: 24 ){
+                if(!_viewModel.localSuggestionDatas.isEmpty) {
+                    withAnimation(.easeIn){
+                        LocalSuggestionView(viewModel: _viewModel,onItemTap: onTapSuggestion)
+                    }
                 }
+                LandingSearchView()
             }
-            LandingSearchView()
-        }.onAppear{
+        }
+        .onAppear{
             _viewModel.getLocalSuggestion()
             _viewModel.isLandingState = true
         }
+        .ignoresSafeArea(.all, edges: /*@START_MENU_TOKEN@*/.bottom/*@END_MENU_TOKEN@*/)
+        
     }
     
     //MARK: - Search Result
@@ -100,7 +105,7 @@ struct SearchView: View {
         Group {
             switch _viewModel._searchResultState {
             case .loading:
-                ProgressView()
+                SpinnerBar()
                 Spacer()
             case .success(let content):
                 if(content.isEmpty) {
@@ -148,8 +153,8 @@ struct SearchView: View {
                 Text("Filter Pencarian")
                     .hindSemiBold18Black()
                 Spacer()
-                Text("Reset")
-                    .hindSemiBold16Blue()
+                resetFilterButton
+                
             }
             .padding(.bottom, 16)
             .padding(.top, 19)
@@ -198,9 +203,6 @@ struct SearchView: View {
                     .padding(.top,10)
             }
             
-            
-            
-            
         }
         
     }
@@ -221,6 +223,17 @@ struct SearchView: View {
             })
             .buttonStyle(BoxButton())
         }
+    }
+    //MARK: - Button Reset BottomSheet
+    var resetFilterButton : some View {
+        Button(action: {
+            _viewModel.isUseFilter = false
+            _viewModel.getSearchResult()
+            bottomSheetPosition = .hidden
+        }, label: {
+            Text("Reset")
+                .hindSemiBold16Blue()
+        })
     }
     
     //MARK: - On Tap Suggestion

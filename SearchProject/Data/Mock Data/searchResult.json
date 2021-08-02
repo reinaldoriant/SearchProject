@@ -1,0 +1,1793 @@
+{
+    "status": "ok",
+    "code": 200,
+    "message": {},
+    "result": {
+        "articles": [
+            {
+                "title": "Jokowi-Amin Melompatlah",
+                "name": "jokowi-amin-melompatlah",
+                "permalink": "https://www.kompas.id/baca/opini/2021/05/06/jokowi-amin-melompatlah/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-150x150.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-720x405.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-768x432.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-825x510.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-300x200.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370.jpeg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-150x150.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-720x405.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-768x432.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-825x510.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370-300x200.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/WhatsApp-Image-2021-05-03-at-12.33.38-PM_1620020316-e1620029614370.jpeg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "BPMI SEKRETARIAT PRESIDEN"
+                        }
+                    }
+                },
+                "excerpt": "Angka kepuasan publik terhadap kinerja pemerintahan Jokowi-Amin mencapai 69 persen atau meningkat dibandingkan Januari 2021 yang sebesar 66,3 persen serta survei pada Agustus 2020 sebesar 65,9 persen.",
+                "published_date": "2021-05-06 06:01:37",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "Redaksi"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Opini",
+                            "slug": "opini"
+                        },
+                        {
+                            "name": "Tajuk Rencana",
+                            "slug": "tajuk-rencana"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "tomytrinugroho",
+                            "slug": "tomytrinugroho"
+                        },
+                        {
+                            "name": "aminiskandar",
+                            "slug": "aminiskandar"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "presiden jokowi",
+                            "slug": "presiden-jokowi"
+                        },
+                        {
+                            "name": "litbang kompas",
+                            "slug": "litbang-kompas"
+                        },
+                        {
+                            "name": "survei litbang kompas",
+                            "slug": "survei-litbang-kompas"
+                        },
+                        {
+                            "name": "tajuk rencana",
+                            "slug": "tajuk-rencana"
+                        },
+                        {
+                            "name": "kompascetak",
+                            "slug": "kompascetak"
+                        },
+                        {
+                            "name": "tajuk rencana kompas",
+                            "slug": "tajuk-rencana-kompas"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Tajuk Rencana"
+                },
+                "published_date_gmt": "2021-05-05 23:01:37",
+                "image_counter": 3,
+                "editors": [
+                    "A Tomy Trinugroho"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "6"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20210506"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "Jokowi-Amin Melompatlah"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11620160
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=jokowi-amin-melompatlah.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Tujuan Tunggal Jokowi",
+                "name": "tujuan-tunggal-jokowi",
+                "permalink": "https://www.kompas.id/baca/opini/2020/10/15/tujuan-tunggal-jokowi/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-720x720.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 720
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-432x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 432,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-1024x1024.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 1024
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-720x720.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 720
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-432x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 432,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-1024x1024.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 1024
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/05/506539_getattachment6d4403ca-3b6f-4731-8676-9552c55241c3497923.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "Arsip Pribadi  "
+                        }
+                    }
+                },
+                "excerpt": "Pandangan saya bertolak belakang dengan Bland. Sejak awal kariernya sebagai politisi, Jokowi terdorong oleh satu keinginan: memberdayakan masyarakat kecil.",
+                "published_date": "2020-10-15 06:05:09",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "R William Liddle"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Opini",
+                            "slug": "opini"
+                        },
+                        {
+                            "name": "Artikel Opini",
+                            "slug": "artikel-opini"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "presiden joko widodo",
+                            "slug": "presiden-joko-widodo"
+                        },
+                        {
+                            "name": "fenomena",
+                            "slug": "fenomena"
+                        },
+                        {
+                            "name": "r william liddle",
+                            "slug": "r-william-liddle"
+                        },
+                        {
+                            "name": "analisis ahli",
+                            "slug": "analisis-ahli"
+                        },
+                        {
+                            "name": "opini r william liddle",
+                            "slug": "opini-r-william-liddle"
+                        },
+                        {
+                            "name": "ben bland",
+                            "slug": "ben-bland"
+                        },
+                        {
+                            "name": "laju pertumbuhan",
+                            "slug": "laju-pertumbuhan"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "syahnanrangkuti",
+                            "slug": "syahnanrangkuti"
+                        },
+                        {
+                            "name": "kusnadi",
+                            "slug": "kusnadi"
+                        },
+                        {
+                            "name": "yohaneskrisnawan",
+                            "slug": "yohaneskrisnawan"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Analisis Politik"
+                },
+                "published_date_gmt": "2020-10-14 23:05:09",
+                "image_counter": 4,
+                "editors": [
+                    "Yohanes Krisnawan"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "7"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20201015"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "Tujuan Tunggal Jokowi"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11424493
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=tujuan-tunggal-jokowi.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "PSBB, Pertaruhan Jokowi",
+                "name": "psbb-pertaruhan-jokowi",
+                "permalink": "https://www.kompas.id/baca/polhuk/2020/04/03/psbb-pertaruhan-jokowi/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-720x480.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 480
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-648x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 648,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-1024x683.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 683
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-720x480.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 480
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-648x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 648,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-1024x683.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 683
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/04/49f0b5b4-ea2f-400e-a1b5-68451e49438a_jpg.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "Kompas/Heru Sri Kumoro "
+                        }
+                    }
+                },
+                "excerpt": "Presiden Joko Widodo baru akhir Maret lalu, menetapkan  Pembatasan Sosial Berskala Besar dan status Kedaruratan Kesehatan untuk mengatasi penyebaran Covid-19 yang saat ini massif. Efektifkah? Inilah pertaruhan Jokowi.  ",
+                "published_date": "2020-04-03 07:33:13",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "Nicolaus Herbowo"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Politik &amp; Hukum",
+                            "slug": "polhuk"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "suhartono",
+                            "slug": "suhartono"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "satu meja",
+                            "slug": "satu-meja"
+                        },
+                        {
+                            "name": "utama",
+                            "slug": "utama"
+                        },
+                        {
+                            "name": "aktual. berita",
+                            "slug": "aktual-berita"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Satu Meja"
+                },
+                "published_date_gmt": "2020-04-03 00:33:13",
+                "image_counter": 6,
+                "editors": [
+                    "Suhartono "
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "3"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20200403"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "PSBB, Pertaruhan Jokowi"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11191431
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=psbb-pertaruhan-jokowi.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Jokowi-Amin, Jump",
+                "name": "jokowi-amin-jump",
+                "permalink": "https://www.kompas.id/baca/english/2021/05/06/jokowi-amin-jump/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-150x150.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-720x503.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 503
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-619x432.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 619,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-1024x715.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 715
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-825x510.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-300x200.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270.jpeg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-150x150.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-720x503.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 503
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-619x432.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 619,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-1024x715.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 715
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-825x510.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270-300x200.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/12/WhatsApp-Image-2020-12-23-at-12.24.33-PM_1608713270.jpeg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "BPMI SEKRETARIAT PRESIDEN"
+                        }
+                    }
+                },
+                "excerpt": "Many heads of government in the world have experienced decreases in confidence ratings in the face of the tough and uncertain challenges of the COVID-19 pandemic.",
+                "published_date": "2021-05-06 10:02:52",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "EDITOR"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "English",
+                            "slug": "english"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "naranasrullah",
+                            "slug": "naranasrullah"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "editorial",
+                            "slug": "editorial"
+                        },
+                        {
+                            "name": "kompascetak",
+                            "slug": "kompascetak"
+                        },
+                        {
+                            "name": "Narendra Modi",
+                            "slug": "narendra-modi"
+                        },
+                        {
+                            "name": "covid-19 pandemic",
+                            "slug": "covid-19-pandemic"
+                        },
+                        {
+                            "name": "public satisfaction",
+                            "slug": "public-satisfaction"
+                        },
+                        {
+                            "name": "Deutschlandtrend",
+                            "slug": "deutschlandtrend"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "EDITORIAL"
+                },
+                "published_date_gmt": "2021-05-06 03:02:52",
+                "image_counter": 3,
+                "editors": [
+                    "Nasrullah Nara"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "6"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20210506"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "Jokowi-Amin, Melompatlah"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11620522
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=jokowi-amin-jump.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Mengharap Jembatan Jokowi",
+                "name": "mengharap-jembatan-jokowi",
+                "permalink": "https://www.kompas.id/baca/opini/2020/04/06/mengharap-jembatan-jokowi/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-1024x576.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 576
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-1024x576.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 576
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/08/surat-pembaca-alternatif-2_1565095889.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "MARIA KARINA PUTRI"
+                        }
+                    }
+                },
+                "excerpt": "Saya seorang pastor Gereja Katolik, yang hampir setiap hari Minggu memimpin perayaan ekaristi untuk umat Katolik di daerah Tanah Jawa, Kabupaten Simalungun. ",
+                "published_date": "2020-04-06 02:29:12",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": ""
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Opini",
+                            "slug": "opini"
+                        },
+                        {
+                            "name": "Surat Pembaca",
+                            "slug": "surat-pembaca"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "kompascetak",
+                            "slug": "kompascetak"
+                        },
+                        {
+                            "name": "surat kepada redaksi",
+                            "slug": "surat-kepada-redaksi"
+                        },
+                        {
+                            "name": "surat pembaca",
+                            "slug": "surat-pembaca"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "kompascom_39cacf265a8d7beaaa9e3a77219d05914fecbcd9",
+                            "slug": "kompascom_39cacf265a8d7beaaa9e3a77219d05914fecbcd9"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Surat Kepada Redaksi"
+                },
+                "published_date_gmt": "2020-04-05 19:29:12",
+                "image_counter": 0,
+                "editors": [],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "7"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20200406"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "Mengharap Jembatan Jokowi"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11195400
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=mengharap-jembatan-jokowi.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Jokowi Telepon WHO",
+                "name": "jokowi-telepon-who",
+                "permalink": "https://www.kompas.id/baca/polhuk/2020/03/15/jokowi-telepon-who/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-720x540.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 540
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-576x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 576,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-1024x768.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 768
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-720x540.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 540
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-576x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 576,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-1024x768.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 768
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/03/20200313_141719_1584095924.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "KOMPAS/NINA SUSILO"
+                        }
+                    }
+                },
+                "excerpt": "Presiden Joko Widodo pada Jumat (13/03/2020) sore, menelepon Direktur Jenderal WHO Tedros Adhanom Ghebrey untuk berkoordinasi tentang penanganan virus korona di Indonesia. Setelah sebelumnya, WHO menelpon Presiden. ",
+                "published_date": "2020-03-15 00:03:19",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "FX LAKSANA AS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Politik &amp; Hukum",
+                            "slug": "polhuk"
+                        },
+                        {
+                            "name": "Kesehatan",
+                            "slug": "kesehatan"
+                        },
+                        {
+                            "name": "Kilas",
+                            "slug": "sekilas"
+                        },
+                        {
+                            "name": "Humaniora",
+                            "slug": "humaniora"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "laksanaas",
+                            "slug": "laksanaas"
+                        },
+                        {
+                            "name": "suhartono",
+                            "slug": "suhartono"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "aktual. berita",
+                            "slug": "aktual-berita"
+                        },
+                        {
+                            "name": "penangan virus korona",
+                            "slug": "penangan-virus-korona"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Dampak Virus Korona"
+                },
+                "published_date_gmt": "2020-03-14 17:03:19",
+                "image_counter": 4,
+                "editors": [
+                    "Suhartono "
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11163269
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=jokowi-telepon-who.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Jokowi-Amin Melompatlah",
+                "name": "jokowi-amin-melompatlah-2",
+                "permalink": "https://www.kompas.id/baca/video/2021/05/06/jokowi-amin-melompatlah-2/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/05/jokowi-amin-melompat_1620275536.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": null
+                    }
+                },
+                "excerpt": "Kepuasan publik terhadap kinerja pemerintah mencapai 69 persen berdasarkan survei Litbang &rdquo;Kompas&rdquo;, April 2021. Apresiasi ini menjadi modal besar untuk mengatasi tantangan ke depan. Jangan terlena, apalagi tersandung.",
+                "published_date": "2021-05-06 13:03:13",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "KOMPAS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "Video Berita",
+                            "slug": "berita-video"
+                        },
+                        {
+                            "name": "Bebas Akses",
+                            "slug": "bebas-akses"
+                        }
+                    ],
+                    "post_format": [
+                        {
+                            "name": "post-format-video",
+                            "slug": "post-format-video"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "survei litbang kompas",
+                            "slug": "survei-litbang-kompas"
+                        },
+                        {
+                            "name": "kinerja",
+                            "slug": "kinerja"
+                        },
+                        {
+                            "name": "video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "Video berita",
+                            "slug": "video-berita"
+                        },
+                        {
+                            "name": "kepuasan publik",
+                            "slug": "kepuasan-publik"
+                        },
+                        {
+                            "name": "jokowi-amin melompatlah",
+                            "slug": "jokowi-amin-melompatlah"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "nanikdwiastuti",
+                            "slug": "nanikdwiastuti"
+                        },
+                        {
+                            "name": "marinaek0983",
+                            "slug": "marinaek0983"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "video"
+                },
+                "published_date_gmt": "2021-05-06 06:03:13",
+                "image_counter": 0,
+                "editors": [
+                    "Lucky Pransiska"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11620608
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=jokowi-amin-melompatlah-2.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Pengantin Viral Mirip Jokowi",
+                "name": "pengantin-viral-mirip-jokowi",
+                "permalink": "https://www.kompas.id/baca/video/2020/11/03/pengantin-viral-mirip-jokowi/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-1024x576.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 576
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-1024x576.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 576
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/jokowi_1604328027.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": null
+                    }
+                },
+                "excerpt": "Pasangan suami istri di Lombok, Nusa Tenggara Barat, baru-baru ini mendadak viral di media sosial karena mempelai pria yang mirip dengan Presiden Joko Widodo.",
+                "published_date": "2020-11-03 20:30:59",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "KOMPAS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "Video Berita",
+                            "slug": "berita-video"
+                        },
+                        {
+                            "name": "Bebas Akses",
+                            "slug": "bebas-akses"
+                        }
+                    ],
+                    "post_format": [
+                        {
+                            "name": "post-format-video",
+                            "slug": "post-format-video"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "media sosial",
+                            "slug": "media-sosial"
+                        },
+                        {
+                            "name": "viral",
+                            "slug": "viral"
+                        },
+                        {
+                            "name": "Joko widodo",
+                            "slug": "joko-widodo"
+                        },
+                        {
+                            "name": "video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "kilas",
+                            "slug": "kilas"
+                        },
+                        {
+                            "name": "Video berita",
+                            "slug": "video-berita"
+                        },
+                        {
+                            "name": "fenomena",
+                            "slug": "fenomena"
+                        },
+                        {
+                            "name": "news flash",
+                            "slug": "news-flash"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "hibarhimawan",
+                            "slug": "hibarhimawan"
+                        },
+                        {
+                            "name": "marinaek0983",
+                            "slug": "marinaek0983"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "video"
+                },
+                "published_date_gmt": "2020-11-03 13:30:59",
+                "image_counter": 0,
+                "editors": [
+                    "Lucky Pransiska"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11445632
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=pengantin-viral-mirip-jokowi.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Presiden Jokowi : Jangan Menyerah",
+                "name": "presiden-jokowi-jangan-menyerah",
+                "permalink": "https://www.kompas.id/baca/ekonomi/2020/10/08/presiden-jokowi-jangan-menyerah/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-150x150.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-720x500.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 500
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-622x432.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 622,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-1024x711.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 711
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-825x510.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-300x200.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854.jpeg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-150x150.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-720x500.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 500
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-622x432.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 622,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-1024x711.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 711
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-825x510.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854-300x200.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/10/WhatsApp-Image-2020-10-08-at-5.58.55-PM_1602154854.jpeg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "BPMI SEKRETARIAT PRESIDEN"
+                        }
+                    }
+                },
+                "excerpt": "Pandemi Covid-19 membawa kesulitan hampir ke semua masyarakat, termasuk pengusaha besar, menengah, maupun pengusaha kecil dan mikro. Presiden Jokowi berharap hal itu tak kendurkan semangat masyarakat untuk bangkit.  ",
+                "published_date": "2020-10-08 18:32:43",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "Nina Susilo"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Ekonomi",
+                            "slug": "ekonomi"
+                        },
+                        {
+                            "name": "Politik &amp; Hukum",
+                            "slug": "polhuk"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "haryodamardono",
+                            "slug": "haryodamardono"
+                        },
+                        {
+                            "name": "ninasusilo",
+                            "slug": "ninasusilo"
+                        },
+                        {
+                            "name": "suhartono",
+                            "slug": "suhartono"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "presiden jokowi",
+                            "slug": "presiden-jokowi"
+                        },
+                        {
+                            "name": "UMKM",
+                            "slug": "umkm"
+                        },
+                        {
+                            "name": "utama",
+                            "slug": "utama"
+                        },
+                        {
+                            "name": "aktual",
+                            "slug": "aktual"
+                        },
+                        {
+                            "name": "virus korona",
+                            "slug": "virus-korona"
+                        },
+                        {
+                            "name": "covid-19",
+                            "slug": "covid-19"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Pemberdayaan Ekonomi"
+                },
+                "published_date_gmt": "2020-10-08 11:32:43",
+                "image_counter": 3,
+                "editors": [
+                    "Suhartono "
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11417214
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=presiden-jokowi-jangan-menyerah.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Duren untuk Iriana Jokowi",
+                "name": "duren-untuk-iriana-jokowi",
+                "permalink": "https://www.kompas.id/baca/ekonomi/2020/03/12/duren-untuk-iriana-jokowi/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-720x441.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 441
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-705x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 705,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-1024x627.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 627
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-720x441.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 441
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-705x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 705,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-1024x627.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 627
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/15773996-ac09-4828-bfe9-b3e7337a73a5_jpg.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "KOMPAS/WISNU WIDIANTORO"
+                        }
+                    }
+                },
+                "excerpt": "Presiden Jokowi menggunakan kisahnya memberikan durian sebagai hadiah bagi istrinya sebagai ilustrasi dalam mendorong ekspor buah. Indonesia dinilai memiliki peluang pasar ekspor yang amat besar.",
+                "published_date": "2020-03-12 16:35:57",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "FX LAKSANA AS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Ekonomi",
+                            "slug": "ekonomi"
+                        },
+                        {
+                            "name": "Politik &amp; Hukum",
+                            "slug": "polhuk"
+                        },
+                        {
+                            "name": "Tokoh",
+                            "slug": "tokoh"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "antonylee",
+                            "slug": "antonylee"
+                        },
+                        {
+                            "name": "laksanaas",
+                            "slug": "laksanaas"
+                        },
+                        {
+                            "name": "luciasari",
+                            "slug": "luciasari"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "ibu negara",
+                            "slug": "ibu-negara"
+                        },
+                        {
+                            "name": "durian",
+                            "slug": "durian"
+                        },
+                        {
+                            "name": "berita",
+                            "slug": "berita"
+                        },
+                        {
+                            "name": "ny iriana jokowi",
+                            "slug": "ny-iriana-jokowi"
+                        },
+                        {
+                            "name": "aktual",
+                            "slug": "aktual"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Pertanian "
+                },
+                "published_date_gmt": "2020-03-12 09:35:57",
+                "image_counter": 5,
+                "editors": [
+                    "Antony Lee"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11160208
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=duren-untuk-iriana-jokowi.mp3",
+                "isBookmark": false
+            }
+        ],
+        "meta": {
+            "next": 2,
+            "total": 1718
+        }
+    }
+}

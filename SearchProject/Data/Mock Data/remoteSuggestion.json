@@ -1,0 +1,39 @@
+{
+    "results": {
+        "documents": [
+            {
+                "suggestion": "makan"
+            },
+            {
+                "suggestion": "makan orang"
+            },
+            {
+                "suggestion": "makanan"
+            },
+            {
+                "suggestion": "makanan yang"
+            },
+            {
+                "suggestion": "makanan yang halal"
+            },
+            {
+                "suggestion": "makanan yang halal dan"
+            },
+            {
+                "suggestion": "makanan adalah"
+            },
+            {
+                "suggestion": "makanan adalah kunci"
+            },
+            {
+                "suggestion": "makanan tersaji"
+            },
+            {
+                "suggestion": "makanan tersaji kisah"
+            }
+        ]
+    },
+    "meta": {
+        "request_id": "bca43c44-26ff-42b3-a4bb-16839e4b8705"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "status": "ok",
+    "code": 200,
+    "message": {},
+    "result": {
+        "hot_list": [
+            {
+                "name": "olimpiade tokyo 2020",
+                "tag": "olimpiade-tokyo-2020",
+                "url": "https://kompas.id/label/olimpiade-tokyo-2020",
+                "order": 1
+            },
+            {
+                "name": "ppkm darurat",
+                "tag": "ppkm-darurat",
+                "url": "https://kompas.id/label/ppkm-darurat",
+                "order": 2
+            }
+        ],
+        "meta": {
+            "execution_time": 0.021,
+            "site": "kompas.id",
+            "version": 1
+        }
+    }
+}

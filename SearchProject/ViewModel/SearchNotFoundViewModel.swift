@@ -19,13 +19,13 @@ class SearchNotFoundViewModel: ObservableObject,SearchNotFoundProtocol {
     
     //MARK: - Property Others
     private(set) var _rekomendasiList = [Article]()
-    private let _service: SearchService
+    private let _service: SearchServiceProtocol
     
     //MARK: - Properties Cancellable
     private var _cancellables = Set<AnyCancellable>()
        
     //MARK: - Initialize
-    init(service: SearchService ) {
+    init(service: SearchServiceProtocol ) {
         self._service = service
     }
     

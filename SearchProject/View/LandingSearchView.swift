@@ -13,7 +13,7 @@ struct LandingSearchView: View {
     
     // MARK: - Body
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false){
+        
             VStack{
                 VStack(alignment: .leading, spacing:0 ){
                     //MARK: - Title Topik Hangat
@@ -63,12 +63,11 @@ struct LandingSearchView: View {
                     }
                 }
             }
-        }
-        .onAppear{
-            viewModel.getHotTopics()
-            viewModel.getTerpopuler()
-        }
-        .ignoresSafeArea(.all, edges: /*@START_MENU_TOKEN@*/.bottom/*@END_MENU_TOKEN@*/)
+            .onAppear{
+                viewModel.getHotTopics()
+                viewModel.getTerpopuler()
+            }
+      
     }
 }
 

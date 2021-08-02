@@ -9,14 +9,16 @@ import Foundation
 import Combine
 
 //MARK: - Protocol
-protocol SearchProtocol {
+protocol SearchServiceProtocol {
     func getHotTopics(from endpoint: SearchAPI) -> AnyPublisher<HotTopicsModel, ErrorResponse>
     func getTerpopuler(from endpoint: SearchAPI) -> AnyPublisher<SearchDetailModel, ErrorResponse>
     func getRemoteSuggestions(from endpoint: SearchAPI) -> AnyPublisher<RemoteSuggestionModel, ErrorResponse>
+    func getSearchResult(from endpoint: SearchAPI) -> AnyPublisher<SearchDetailModel, ErrorResponse>
+    func getRekomendasi(from endpoint: SearchAPI) -> AnyPublisher<RecommendationModel, ErrorResponse>
 }
 
 //MARK: - Service
-struct SearchService: SearchProtocol {
+struct SearchService: SearchServiceProtocol {
     
     //MARK: - Get Hot Topics
     func getHotTopics(from endpoint: SearchAPI) -> AnyPublisher<HotTopicsModel, ErrorResponse>{

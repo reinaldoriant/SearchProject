@@ -21,11 +21,11 @@ class LandingSearchViewModel: ObservableObject,LandingSearchViewModelProtocol {
     private(set) var _hotList = [HotList]()
     private(set) var _terpopuler = [SearchArticle]()
     
-    private let _service: SearchService
+    private let _service: SearchServiceProtocol
     private var _cancellables = Set<AnyCancellable>()
     
     
-    init(service: SearchService ) {
+    init(service: SearchServiceProtocol ) {
         self._service = service
     }
     func getHotTopics() {

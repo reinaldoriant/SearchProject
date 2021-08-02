@@ -17,24 +17,26 @@ struct SearchFoundView: View {
                     SearchListViewItem(article: article)
                     Divider()
                 }.padding(.horizontal,16)
-                if viewModel.loadMore {
+                if viewModel.loadMoreDown {
                     HStack{
-                        ProgressView()
+                        Spacer()
+                        SpinnerBar()
                             .onAppear{
                                 viewModel.infiniteScroll()
                             }
+                            
+                        Spacer()
                     }
                 }
                 else {
                     GeometryReader{ reader -> Color in
                         let minY = Int(reader.frame(in: .global).minY + 45)
-                        
-                        let height = Int(UIScreen.main.bounds.height)
-                        print("miny =  \(minY) ,, height: \(height)")
+                        let heightInfinity = Int(UIScreen.main.bounds.height)
+                        print("miny =  \(minY) ,, height: \(heightInfinity)")
                         print(viewModel._searchResultList.isEmpty)
-                        if !viewModel._searchResultList.isEmpty && minY == height && viewModel.next != nil {
+                        if !viewModel._searchResultList.isEmpty && minY == heightInfinity && viewModel.next != nil {
                             DispatchQueue.main.async {
-                                viewModel.loadMore = true
+                                viewModel.loadMoreDown = true
                             }
                         }
                         return Color.clear

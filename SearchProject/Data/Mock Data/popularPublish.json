@@ -1,0 +1,1857 @@
+{
+    "status": "ok",
+    "code": 200,
+    "message": {},
+    "result": {
+        "articles": [
+            {
+                "title": "KSAD Lantik Dua Jenderal Putra Papua",
+                "name": "ksad-lantik-dua-jenderal-putra-papua",
+                "permalink": "https://www.kompas.id/baca/polhuk/2020/05/12/ksad-lantik-dua-jenderal-putra-papua/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-150x150.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-720x521.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 521
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-597x432.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 597,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-1024x741.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 741
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-825x510.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-300x200.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319.jpeg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-150x150.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-720x521.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 521
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-597x432.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 597,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-1024x741.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 741
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-825x510.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319-300x200.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/05/WhatsApp-Image-2020-05-11-at-19.45.07_1589218319.jpeg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "DOKUMENTASI DISPENAD"
+                        }
+                    }
+                },
+                "excerpt": "Kepala Staf TNI Angkatan Darat Jenderal Andika Perkasa melantik dua jenderal putra asli Papua, Mayjen Joppye Onesimus Wayangkau dan Mayjen Ali Hamdan Bogra di Mabes TNI AD.",
+                "published_date": "2020-05-12 08:02:44",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "Iwan Santosa"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Politik &amp; Hukum",
+                            "slug": "polhuk"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "caesaralexey",
+                            "slug": "caesaralexey"
+                        },
+                        {
+                            "name": "rosdianasitompul",
+                            "slug": "rosdianasitompul"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "TNI",
+                            "slug": "tni"
+                        },
+                        {
+                            "name": "jenderal",
+                            "slug": "jenderal"
+                        },
+                        {
+                            "name": "papua",
+                            "slug": "papua"
+                        },
+                        {
+                            "name": "ksad",
+                            "slug": "ksad"
+                        },
+                        {
+                            "name": "andika perkasa",
+                            "slug": "andika-perkasa"
+                        },
+                        {
+                            "name": "ali hamdan bogra",
+                            "slug": "ali-hamdan-bogra"
+                        },
+                        {
+                            "name": "joppye onesium wayangkau",
+                            "slug": "joppye-onesium-wayangkau"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "TNI"
+                },
+                "published_date_gmt": "2020-05-12 01:02:44",
+                "image_counter": 3,
+                "editors": [
+                    "Emilius Caesar Alexey"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11244325
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=ksad-lantik-dua-jenderal-putra-papua.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Shanty: Kangen",
+                "name": "shanty-kangen",
+                "permalink": "https://www.kompas.id/baca/nama-peristiwa/2020/03/03/shanty-kangen/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-150x150.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-484x432.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 484,
+                        "height": 432
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-638x510.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 638,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-300x200.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0.jpeg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-150x150.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-484x432.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 484,
+                            "height": 432
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-638x510.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 638,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0-300x200.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2018/01/kompas_tark_15583505_2_0.jpeg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": null
+                    }
+                },
+                "excerpt": "Di panggung Yamaha Music Project itu selain Shanty dan Marcell juga tampil Andien, yang juga membawakan beberapa lagu lawas yang juga disambut meriah penonton remaja.",
+                "published_date": "2020-03-03 06:00:22",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "Sarie Febriane"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Nama &amp; Peristiwa",
+                            "slug": "nama-peristiwa"
+                        },
+                        {
+                            "name": "Tokoh",
+                            "slug": "tokoh"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "sariefebriane",
+                            "slug": "sariefebriane"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "naper",
+                            "slug": "naper"
+                        },
+                        {
+                            "name": "#musikindonesia",
+                            "slug": "musikindonesia"
+                        }
+                    ],
+                    "ef_usergroup": [
+                        {
+                            "name": "Penyelaras Bahasa",
+                            "slug": "ef-usergroup-penyelaras-bahasa"
+                        },
+                        {
+                            "name": "Editor Non Berita",
+                            "slug": "ef-usergroup-editor-non-berita"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Shanty"
+                },
+                "published_date_gmt": "2020-03-02 23:00:22",
+                "image_counter": 1,
+                "editors": [],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20200303"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "Kangen"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11148597
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=shanty-kangen.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Hari Pers Nasional, Konvergensi dan Pemulihan Ekonomi Bangsa",
+                "name": "hari-pers-nasional-konvergensi-dan-pemulihan-ekonomi-bangsa",
+                "permalink": "https://www.kompas.id/baca/opini/2021/02/09/hari-pers-nasional-konvergensi-dan-pemulihan-ekonomi-bangsa/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-150x150.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-514x432.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 514,
+                        "height": 432
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-631x510.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 631,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-300x200.jpeg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171.jpeg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-150x150.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-514x432.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 514,
+                            "height": 432
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-631x510.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 631,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171-300x200.jpeg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/02/Widodo-Muktiyo_1612933171.jpeg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "ARSIP PRIBADI"
+                        }
+                    }
+                },
+                "excerpt": "Andil pers nasional yang paling signifikan itu adalah pada perubahan cara pandang terhadap pandemi dan kesadaran melakukan tindakan-tindakan mandiri dalam menghadapi pandemi.",
+                "published_date": "2021-02-09 06:15:23",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "WIDODO MUKTIYO"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Opini",
+                            "slug": "opini"
+                        },
+                        {
+                            "name": "Artikel Opini",
+                            "slug": "artikel-opini"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "syahnanrangkuti",
+                            "slug": "syahnanrangkuti"
+                        },
+                        {
+                            "name": "kusnadi",
+                            "slug": "kusnadi"
+                        },
+                        {
+                            "name": "yohaneskrisnawan",
+                            "slug": "yohaneskrisnawan"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "fenomena",
+                            "slug": "fenomena"
+                        },
+                        {
+                            "name": "widodo muktiyo",
+                            "slug": "widodo-muktiyo"
+                        },
+                        {
+                            "name": "analisis ahli",
+                            "slug": "analisis-ahli"
+                        },
+                        {
+                            "name": "pandemi covid-19",
+                            "slug": "pandemi-covid-19"
+                        },
+                        {
+                            "name": "hari pers nasional 2021",
+                            "slug": "hari-pers-nasional-2021"
+                        },
+                        {
+                            "name": "opini widodo muktiyo",
+                            "slug": "opini-widodo-muktiyo"
+                        },
+                        {
+                            "name": "pers referensi primer",
+                            "slug": "pers-referensi-primer"
+                        },
+                        {
+                            "name": "pers solutif",
+                            "slug": "pers-solutif"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Pers Indonesia"
+                },
+                "published_date_gmt": "2021-02-08 23:15:23",
+                "image_counter": 4,
+                "editors": [
+                    "Yohanes Krisnawan"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "6"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": "20210209"
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": "Hari Pers Nasional, Konvergensi dan Pemulihan Ekonomi Bangsa"
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11541990
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=hari-pers-nasional-konvergensi-dan-pemulihan-ekonomi-bangsa.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Ironi Politik Upah Murah",
+                "name": "ironi-politik-upah-murah",
+                "permalink": "https://www.kompas.id/baca/ekonomi/2020/11/09/ironi-politik-upah-murah/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-720x445.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 445
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-700x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 700,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-1024x632.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 632
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-720x445.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 445
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-700x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 700,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-1024x632.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 632
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/11/10f62a7e-e020-47e2-844c-85834ad912b4_jpg.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "KOMPAS/RADITYA HELABUMI "
+                        }
+                    }
+                },
+                "excerpt": "Pekerja juga punya andil dalam meningkatkan pertumbuhan ekonomi. Investasi yang masuk tanpa kepastian untuk pekerja tidak akan memberikan efek domino yang signifikan untuk meningkatkan pertumbuhan ekonomi.",
+                "published_date": "2020-11-09 14:53:09",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "Agnes Theodora"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Ekonomi",
+                            "slug": "ekonomi"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "apollolase",
+                            "slug": "apollolase"
+                        },
+                        {
+                            "name": "hendriyowidi",
+                            "slug": "hendriyowidi"
+                        },
+                        {
+                            "name": "agnestheodora",
+                            "slug": "agnestheodora"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "investasi",
+                            "slug": "investasi"
+                        },
+                        {
+                            "name": "ketenagakerjaan",
+                            "slug": "ketenagakerjaan"
+                        },
+                        {
+                            "name": "Kementerian Ketenagakerjaan",
+                            "slug": "kementerian-ketenagakerjaan"
+                        },
+                        {
+                            "name": "BPS",
+                            "slug": "bps"
+                        },
+                        {
+                            "name": "berita",
+                            "slug": "berita"
+                        },
+                        {
+                            "name": "utama",
+                            "slug": "utama"
+                        },
+                        {
+                            "name": "upah murah",
+                            "slug": "upah-murah"
+                        },
+                        {
+                            "name": "aktual",
+                            "slug": "aktual"
+                        },
+                        {
+                            "name": "omnibus law",
+                            "slug": "omnibus-law"
+                        },
+                        {
+                            "name": "uu cipta kerja",
+                            "slug": "uu-cipta-kerja"
+                        },
+                        {
+                            "name": "dampak covid-19",
+                            "slug": "dampak-covid-19"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "KETENAGAKERJAAN "
+                },
+                "published_date_gmt": "2020-11-09 07:53:09",
+                "image_counter": 5,
+                "editors": [
+                    "Hendriyo Widi"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11455808
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=ironi-politik-upah-murah.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Bergantung pada Industri Ekstraktif, Perekonomian Kaltim Terpuruk",
+                "name": "bergantung-industri-ekstraktif-perekonomian-kaltim-terpuruk",
+                "permalink": "https://www.kompas.id/baca/nusantara/2020/08/10/bergantung-industri-ekstraktif-perekonomian-kaltim-terpuruk/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-720x502.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 502
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-620x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 620,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-1024x713.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 713
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-720x502.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 502
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-620x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 620,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-1024x713.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 713
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2019/10/SINGAPORE-ENERGYIEA_84450973_1572438504.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "REUTERS / BEAWIHARTA "
+                        }
+                    }
+                },
+                "excerpt": "Pada triwulan II-2020, pertumbuhan ekonomi Kalimantan Timur tumbuh minus 5,46 persen secara tahunan. Sektor pertambangan memiliki andil negatif terbesar, yakni 3,32 persen.",
+                "published_date": "2020-08-10 21:17:27",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "SUCIPTO"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Nusantara",
+                            "slug": "nusantara"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "siwiyunita",
+                            "slug": "siwiyunita"
+                        },
+                        {
+                            "name": "retmawati",
+                            "slug": "retmawati"
+                        },
+                        {
+                            "name": "suciptocipto",
+                            "slug": "suciptocipto"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "Kalimantan Timur",
+                            "slug": "kalimantan-timur"
+                        },
+                        {
+                            "name": "utama",
+                            "slug": "utama"
+                        },
+                        {
+                            "name": "ekstraktif",
+                            "slug": "ekstraktif"
+                        },
+                        {
+                            "name": "perekonomian kaltim",
+                            "slug": "perekonomian-kaltim"
+                        },
+                        {
+                            "name": "batubara kaltim",
+                            "slug": "batubara-kaltim"
+                        },
+                        {
+                            "name": "kontraksi ekonomi kaltim",
+                            "slug": "kontraksi-ekonomi-kaltim"
+                        },
+                        {
+                            "name": "perrtumbuhan ekonomi kaltim",
+                            "slug": "perrtumbuhan-ekonomi-kaltim"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Pertumbuhan Ekonomi"
+                },
+                "published_date_gmt": "2020-08-10 14:17:27",
+                "image_counter": 4,
+                "editors": [
+                    "Siwi Yunita"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11349759
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=bergantung-industri-ekstraktif-perekonomian-kaltim-terpuruk.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Ada Oknum Karyawan di Setiap Kisruh TVRI",
+                "name": "karyawan-jemu-dengan-ulah-oknum-di-internal-tvri",
+                "permalink": "https://www.kompas.id/baca/bebas-akses/2020/01/19/karyawan-jemu-dengan-ulah-oknum-di-internal-tvri/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-720x415.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 415
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-749x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 749,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-1024x591.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 591
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-720x415.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 415
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-749x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 749,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-1024x591.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 591
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2020/01/097c5f21-9cb5-419e-9f76-5f4feb90cac1_jpg.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "Kompas/Priyombodo "
+                        }
+                    }
+                },
+                "excerpt": "Oknum karyawan memiliki jaringan kuat ke Dewan Pengawas TVRI bahkan anggota DPR. Aduan mereka dinilai memberikan andil terhadap sejumlah kisruh yang terjadi di tubuh TVRI.",
+                "published_date": "2020-01-19 16:56:44",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "FAJAR RAMADHAN"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Bebas Akses",
+                            "slug": "bebas-akses"
+                        },
+                        {
+                            "name": "Humaniora",
+                            "slug": "humaniora"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "kisruh tvri",
+                            "slug": "kisruh-tvri"
+                        },
+                        {
+                            "name": "karyawan tvri",
+                            "slug": "karyawan-tvri"
+                        },
+                        {
+                            "name": "helmi yahya",
+                            "slug": "helmi-yahya"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "LEMBAGA PENYIARAN PUBLIK"
+                },
+                "published_date_gmt": "2020-01-19 09:56:44",
+                "image_counter": 5,
+                "editors": [
+                    "Antonius Ponco Anggoro"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11083827
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=karyawan-jemu-dengan-ulah-oknum-di-internal-tvri.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Memulihkan Puncak meski Dipinggirkan",
+                "name": "diusir-karena-berinisiatif-menghijaukan-kawasan-puncak",
+                "permalink": "https://www.kompas.id/baca/video/2021/02/05/diusir-karena-berinisiatif-menghijaukan-kawasan-puncak/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-1024x576.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 576
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-1024x576.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 576
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": null
+                    }
+                },
+                "excerpt": "Setelah 40 tahun bekerja sebagai pemetik teh, Jaya, yang punya andil besar dalam menghijaukan kawasan Puncak, diberhentikan pihak perkebunan dan dipaksa angkat kaki dari rumah pekerja perkebunan. ",
+                "published_date": "2021-02-05 05:05:13",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "KOMPAS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "Video Berita",
+                            "slug": "berita-video"
+                        },
+                        {
+                            "name": "Bebas Akses",
+                            "slug": "bebas-akses"
+                        }
+                    ],
+                    "post_format": [
+                        {
+                            "name": "post-format-video",
+                            "slug": "post-format-video"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "luckypransiska",
+                            "slug": "luckypransiska"
+                        },
+                        {
+                            "name": "nanikdwiastuti",
+                            "slug": "nanikdwiastuti"
+                        },
+                        {
+                            "name": "wiwienmindrasari",
+                            "slug": "wiwienmindrasari"
+                        },
+                        {
+                            "name": "vincentzo joski",
+                            "slug": "vincentzo-joski"
+                        },
+                        {
+                            "name": "wicaksonobudi",
+                            "slug": "wicaksonobudi"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "lingkungan",
+                            "slug": "lingkungan"
+                        },
+                        {
+                            "name": "video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "kawasan puncak",
+                            "slug": "kawasan-puncak"
+                        },
+                        {
+                            "name": "Video berita",
+                            "slug": "video-berita"
+                        },
+                        {
+                            "name": "investigasi",
+                            "slug": "investigasi"
+                        },
+                        {
+                            "name": "aktual",
+                            "slug": "aktual"
+                        },
+                        {
+                            "name": "kerusakan alam",
+                            "slug": "kerusakan-alam"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Video"
+                },
+                "published_date_gmt": "2021-02-04 22:05:13",
+                "image_counter": 0,
+                "editors": [
+                    "Lucky Pransiska"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11539576
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=diusir-karena-berinisiatif-menghijaukan-kawasan-puncak.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Diusir lantaran Berinisiatif Menghijaukan Kawasan Puncak",
+                "name": "diusir-lantaran-berinisiatif-menghijaukan-kawasan-puncak",
+                "permalink": "https://www.kompas.id/baca/video/2021/02/05/diusir-lantaran-berinisiatif-menghijaukan-kawasan-puncak/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-1024x576.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 576
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-1024x576.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 576
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": null
+                    }
+                },
+                "excerpt": "Setelah 40 tahun bekerja sebagai pemetik teh, Jaya, yang punya andil besar dalam menghijaukan kawasan Puncak, diberhentikan pihak perkebunan dan dipaksa angkat kaki dari rumah pekerja perkebunan. ",
+                "published_date": "2021-02-05 05:05:13",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "KOMPAS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "Video Berita",
+                            "slug": "berita-video"
+                        },
+                        {
+                            "name": "Bebas Akses",
+                            "slug": "bebas-akses"
+                        }
+                    ],
+                    "post_format": [
+                        {
+                            "name": "post-format-video",
+                            "slug": "post-format-video"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "luckypransiska",
+                            "slug": "luckypransiska"
+                        },
+                        {
+                            "name": "nanikdwiastuti",
+                            "slug": "nanikdwiastuti"
+                        },
+                        {
+                            "name": "wiwienmindrasari",
+                            "slug": "wiwienmindrasari"
+                        },
+                        {
+                            "name": "wicaksonobudi",
+                            "slug": "wicaksonobudi"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "lingkungan",
+                            "slug": "lingkungan"
+                        },
+                        {
+                            "name": "video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "kawasan puncak",
+                            "slug": "kawasan-puncak"
+                        },
+                        {
+                            "name": "Video berita",
+                            "slug": "video-berita"
+                        },
+                        {
+                            "name": "investigasi",
+                            "slug": "investigasi"
+                        },
+                        {
+                            "name": "aktual",
+                            "slug": "aktual"
+                        },
+                        {
+                            "name": "kerusakan alam",
+                            "slug": "kerusakan-alam"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Video"
+                },
+                "published_date_gmt": "2021-02-04 22:05:13",
+                "image_counter": 0,
+                "editors": [
+                    "Lucky Pransiska"
+                ],
+                "status": "draft",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11539575
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=diusir-lantaran-berinisiatif-menghijaukan-kawasan-puncak.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Menghijaukan Kawasan Puncak meski Dipinggirkan",
+                "name": "menghujaukan-kawasan-puncak-meski-dipinggirkan__trashed",
+                "permalink": "https://www.kompas.id/baca/video/2021/01/29/menghujaukan-kawasan-puncak-meski-dipinggirkan__trashed/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-1024x576.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 576
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-1024x576.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 576
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/1676298_p_1611749867.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": null
+                    }
+                },
+                "excerpt": "Setelah 40 tahun bekerja sebagai pemetik teh, Jaya, yang punya andil besar dalam menghijaukan kawasan puncak, diberhentikan pihak perkebunan dan dipaksa angkat kaki dari rumah pekerja perkebunan. ",
+                "published_date": "2021-01-29 05:05:13",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "KOMPAS"
+                },
+                "terms": {
+                    "category": [
+                        {
+                            "name": "Video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "Video Berita",
+                            "slug": "berita-video"
+                        },
+                        {
+                            "name": "Bebas Akses",
+                            "slug": "bebas-akses"
+                        }
+                    ],
+                    "post_format": [
+                        {
+                            "name": "post-format-video",
+                            "slug": "post-format-video"
+                        }
+                    ],
+                    "following_users": [
+                        {
+                            "name": "luckypransiska",
+                            "slug": "luckypransiska"
+                        },
+                        {
+                            "name": "wiwienmindrasari",
+                            "slug": "wiwienmindrasari"
+                        },
+                        {
+                            "name": "wicaksonobudi",
+                            "slug": "wicaksonobudi"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "lingkungan",
+                            "slug": "lingkungan"
+                        },
+                        {
+                            "name": "video",
+                            "slug": "video"
+                        },
+                        {
+                            "name": "kawasan puncak",
+                            "slug": "kawasan-puncak"
+                        },
+                        {
+                            "name": "investigasi",
+                            "slug": "investigasi"
+                        },
+                        {
+                            "name": "kerusakan alam",
+                            "slug": "kerusakan-alam"
+                        },
+                        {
+                            "name": "video lipsus",
+                            "slug": "video-lipsus"
+                        },
+                        {
+                            "name": "Memulihkan Puncak Meski Dipinggirkan",
+                            "slug": "memulihkan-puncak-meski-dipinggirkan"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Video"
+                },
+                "published_date_gmt": "2021-01-28 22:05:13",
+                "image_counter": 0,
+                "editors": [
+                    "Lucky Pransiska"
+                ],
+                "status": "trash",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11532677
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=menghujaukan-kawasan-puncak-meski-dipinggirkan__trashed.mp3",
+                "isBookmark": false
+            },
+            {
+                "title": "Mengubah &rdquo;Sampah&rdquo; Menjadi &rdquo;Emas&rdquo;",
+                "name": "mengubah-sampah-menjadi-emas-2",
+                "permalink": "https://www.kompas.id/baca/humaniora/2021/01/29/mengubah-sampah-menjadi-emas-2/",
+                "thumbnails": {
+                    "thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-150x150.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-720x405.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 720,
+                        "height": 405
+                    },
+                    "medium_large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-768x432.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 768,
+                        "height": 432
+                    },
+                    "large": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-1024x576.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 1024,
+                        "height": 576
+                    },
+                    "post-thumbnail": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-825x510.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 825,
+                        "height": 510
+                    },
+                    "thumbnail_medium": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-300x200.jpg",
+                        "mime-type": "image/jpeg",
+                        "width": 300,
+                        "height": 200
+                    },
+                    "original": {
+                        "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG.jpg",
+                        "mime-type": "image/jpeg"
+                    },
+                    "sizes": {
+                        "thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-150x150.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 150,
+                            "height": 150
+                        },
+                        "medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-720x405.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 720,
+                            "height": 405
+                        },
+                        "medium_large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-768x432.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 768,
+                            "height": 432
+                        },
+                        "large": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-1024x576.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 1024,
+                            "height": 576
+                        },
+                        "post-thumbnail": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-825x510.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 825,
+                            "height": 510
+                        },
+                        "thumbnail_medium": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG-300x200.jpg",
+                            "mime-type": "image/jpeg",
+                            "width": 300,
+                            "height": 200
+                        },
+                        "original": {
+                            "permalink": "https://d2huqozv2aqnkj.cloudfront.net/wp-content/uploads//2021/01/32c0c589-5239-4ea1-848f-0c30266c2d64_JPG.jpg",
+                            "mime-type": "image/jpeg"
+                        }
+                    },
+                    "meta": {
+                        "photographer-name": {
+                            "meta_key": "kompas-photographer-name",
+                            "meta_value": "KOMPAS/FAJAR RAMADHAN"
+                        }
+                    }
+                },
+                "excerpt": "Di antara anak-anak jalanan, ada tangan-tangan yang berupaya membantu mereka mendapatkan kehidupan yang lebih baik. Selain memberikan pendapatan, rasa kekeluargaan juga andil mengubah kebiasaan turun ke jalan.",
+                "published_date": "2021-01-29 07:38:30",
+                "is_freemium": false,
+                "article_by_line": {
+                    "meta_key": "kompas_article_show_byline",
+                    "meta_value": "FAJAR RAMADHAN"
+                },
+                "terms": {
+                    "following_users": [
+                        {
+                            "name": "agnesrita",
+                            "slug": "agnesrita"
+                        },
+                        {
+                            "name": "wiwienmindrasari",
+                            "slug": "wiwienmindrasari"
+                        },
+                        {
+                            "name": "fajar.ramadhan",
+                            "slug": "fajar-ramadhan"
+                        }
+                    ],
+                    "post_tag": [
+                        {
+                            "name": "pemberdayaan masyarakat",
+                            "slug": "pemberdayaan-masyarakat"
+                        },
+                        {
+                            "name": "Kemiskinan",
+                            "slug": "kemiskinan"
+                        },
+                        {
+                            "name": "Sopir Angkot",
+                            "slug": "sopir-angkot"
+                        },
+                        {
+                            "name": "anak jalanan",
+                            "slug": "anak-jalanan"
+                        },
+                        {
+                            "name": "fenomena",
+                            "slug": "fenomena"
+                        },
+                        {
+                            "name": "utama",
+                            "slug": "utama"
+                        },
+                        {
+                            "name": "pmks",
+                            "slug": "pmks"
+                        },
+                        {
+                            "name": "fajar ramadhan",
+                            "slug": "fajar-ramadhan"
+                        },
+                        {
+                            "name": "anjal",
+                            "slug": "anjal"
+                        },
+                        {
+                            "name": "yayasan kumala",
+                            "slug": "yayasan-kumala"
+                        }
+                    ],
+                    "category": [
+                        {
+                            "name": "Humaniora",
+                            "slug": "humaniora"
+                        }
+                    ]
+                },
+                "keyword": {
+                    "meta_key": "kompas_article_keyword",
+                    "meta_value": "Anak Jalanan"
+                },
+                "published_date_gmt": "2021-01-29 00:38:30",
+                "image_counter": 5,
+                "editors": [
+                    "Agnes Rita"
+                ],
+                "status": "publish",
+                "meta": {
+                    "cache": true,
+                    "pin": false,
+                    "print": {
+                        "page": {
+                            "meta_key": "kompas_article_page_number",
+                            "meta_value": "0"
+                        },
+                        "edition": {
+                            "meta_key": "kompas_article_print_edition_date",
+                            "meta_value": ""
+                        },
+                        "headline": {
+                            "meta_key": "kompas_article_print_headline",
+                            "meta_value": ""
+                        }
+                    },
+                    "type": "post-article",
+                    "id": 11532801
+                },
+                "audio": "https://apio.kompas.id/soundwave/?blogtype=editorial&berkas=mengubah-sampah-menjadi-emas-2.mp3",
+                "isBookmark": false
+            }
+        ],
+        "meta": {
+            "next": 9,
+            "total": 112
+        }
+    }
+}

@@ -26,9 +26,12 @@ class SearchProjectUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+        let errorText = app.staticTexts["Topic Hangat"]
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(errorText.exists)
     }
 
     func testLaunchPerformance() throws {
@@ -38,5 +41,24 @@ class SearchProjectUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
+    }
+    
+    func testKedua() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let findCovid = app.staticTexts["Covid"]
+        XCTAssert(findCovid.exists)
+        findCovid.tap()
+        sleep(10)
+        
+        
+    }
+    
+    func testRemoveLocalSuggestion() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let finddelete = app.buttons["buttonHapusSemua"]
+        XCTAssert(finddelete.exists)
+        finddelete.tap()
     }
 }
