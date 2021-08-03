@@ -1,5 +1,5 @@
 # SearchProject
-Search Project 🔍 is a simple search to find news using Swift 2.0
+Search Project 🔍 is a simple app to find news using Swift 2.0
 
 [![forthebadge made-with-swift](https://forthebadge.com/images/badges/made-with-swift.svg)](https://www.apple.com/)
 
