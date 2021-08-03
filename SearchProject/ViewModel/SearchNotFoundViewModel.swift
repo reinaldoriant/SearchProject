@@ -20,7 +20,7 @@ class SearchNotFoundViewModel: ObservableObject,SearchNotFoundProtocol {
     //MARK: - Property Others
     private(set) var _rekomendasiList = [Article]()
     private let _service: SearchServiceProtocol
-    
+    var next : Int? = 1
     //MARK: - Properties Cancellable
     private var _cancellables = Set<AnyCancellable>()
        
@@ -42,6 +42,7 @@ class SearchNotFoundViewModel: ObservableObject,SearchNotFoundProtocol {
                     self._rekomendasiState = .failed(error: error)
                 }
             },receiveValue: { response in
+                self.next = response.result.meta.next
                 self._rekomendasiList = response.result.articles
                 print(response.message)
             })

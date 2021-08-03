@@ -11,7 +11,9 @@ import URLImage
 struct SearchListViewItem: View {
     
     let article: SearchArticle
+    
     @State var isHidden = false
+    @State private var newTitle : String = ""
     
     var body: some View {
         HStack{
@@ -40,23 +42,29 @@ struct SearchListViewItem: View {
             }
         }
         .frame(height: 90)
+        .onAppear{
+            DispatchQueue.main.async {
+                newTitle = article.title.html2String
+            }
+        }
     }
     
     var isFree: some View {
         VStack(alignment: .leading, spacing: 0){
             LabelView(label: article.isFreemium)
                 .padding(.bottom, 8)
-            Text(article.title)
+            Text(newTitle)
                 .playfairBold14Black()
             Text(getDateWithCategory(date: article.publishedDate, category: (article.terms?.category![0].name)!))
                 .hindRegular12Gray()
+            
         }
         .modifier(BoxSearchText())
     }
     
     var isNotFree: some View {
         VStack(alignment: .leading, spacing: 0){
-            Text(article.title)
+            Text(newTitle)
                 .playfairBold14Black()
             Text(getDateWithCategory(date: article.publishedDate, category: (article.terms?.category![0].name)!))
                 .hindRegular12Gray()

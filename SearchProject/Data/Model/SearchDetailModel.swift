@@ -9,8 +9,6 @@ import Foundation
 
 // MARK: - Popular
 struct SearchDetailModel: Codable {
-    
-    
     let status: String
     let code: Int
     let message: Message
@@ -24,9 +22,9 @@ struct PopularResult: Codable{
     let meta: ResultMeta
 }
 
+
 // MARK: - Article
 struct SearchArticle: Codable {
-    
     let title, name: String
     let permalink: String
     let thumbnails: Thumbnails
@@ -43,7 +41,7 @@ struct SearchArticle: Codable {
     let audio: String
     let isBookmark: Bool
     let metaPopular: MetaPopular?
-
+    
     enum CodingKeys: String, CodingKey {
         case title, name, permalink, thumbnails, excerpt
         case publishedDate = "published_date"

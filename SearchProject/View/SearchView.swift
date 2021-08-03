@@ -167,6 +167,7 @@ struct SearchView: View {
                     Toggle(isOn: $_viewModel.isShowRange)
                     {
                         Text("Rentang waktu")
+                            .hindRegular16Black()
                     }
                     .toggleStyle(CheckboxStyle())
                     .onChange(of: _viewModel.isShowRange, perform: { value in
